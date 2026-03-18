@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# blog source files (not part of the site build)
+/app/bloglar/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

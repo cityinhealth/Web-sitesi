@@ -1,0 +1,38 @@
+export const EVDE_DOKTOR_CATEGORY = {
+    name: "Evde Doktor Hizmetleri",
+    slug: "evde-doktor",
+    description: "Uzman doktorlarımız evinize geliyor. Genel muayene, diyetisyen ve psikolojik destek hizmetleri.",
+    meta_title: "Evde Doktor Hizmeti İstanbul | 7/24 | City In Health",
+    meta_description: "İstanbul'da evde doktor hizmeti. Uzman hekim muayenesi, diyetisyen, psikolog desteği evinizde. 39 ilçede 7/24.",
+    icon: "👨‍⚕️",
+    cover_image: "/images/evde-doktor-hizmetleri.png",
+    services: [
+        {
+            title: "Evde Doktor Muayenesi",
+            slug: "evde-doktor-muayenesi",
+            short_description: "Genel muayene ve sağlık değerlendirmesi. Uzman hekimler evinize gelerek muayene ve tedavi planı oluşturur.",
+            cover_image: "/images/evde-doktor-hizmetleri.png",
+            meta_title: "Evde Doktor Muayenesi İstanbul | City In Health",
+            meta_description: "İstanbul'da evde doktor muayenesi. Uzman hekim evde muayene ve tedavi planı. 39 ilçede 7/24.",
+            content_html: `<h2>Evde Doktor Muayenesi Nedir?</h2><p>Evde doktor muayenesi, uzman hekimin evinize gelerek fizik muayene yapması, tanı koyması ve tedavi planı oluşturmasıdır. Hastaneye gitme imkânı olmayan, yaşlı, kronik hastalığı olan veya acil muayene gereken hastalar için ideal bir çözümdür.</p><h2>Muayene Kapsamı</h2><ul><li>Detaylı fizik muayene</li><li>Tanı ve tedavi planı</li><li>İlaç reçetesi yazılması</li><li>Gerekli tetkiklerin istenmesi</li><li>Sevk ve yönlendirme</li><li>Kronik hastalık takibi</li></ul><h2>Hangi Durumlar İçin?</h2><ul><li>Ateşli hastalıklar</li><li>Üst solunum yolu enfeksiyonları</li><li>Karın ağrısı ve mide sorunları</li><li>Kronik hastalık kontrolleri</li><li>Yaşlı hastaların periyodik muayenesi</li><li>Yatağa bağımlı hastaların takibi</li></ul>`,
+        },
+        {
+            title: "Evde Diyetisyen",
+            slug: "evde-diyetisyen",
+            short_description: "Kişiye özel beslenme planları ve diyet danışmanlığı. Kronik hastalıklara uygun diyet programları.",
+            cover_image: "/images/diyetisyen.png",
+            meta_title: "Evde Diyetisyen Hizmeti İstanbul | City In Health",
+            meta_description: "Evde diyetisyen hizmeti. Kişiye özel beslenme programı, kronik hastalık diyetleri. İstanbul 39 ilçede.",
+            content_html: `<h2>Evde Diyetisyen Hizmeti Nedir?</h2><p>Evde diyetisyen hizmeti, uzman diyetisyenin evinize gelerek beslenme durumunuzu değerlendirmesi, kişiye özel beslenme planı oluşturması ve takip etmesidir. Mutfak ortamında pratik uygulamalar ve alternatif yiyecek önerileri sunulur.</p><h2>Hizmet Kapsamı</h2><ul><li>Antropometrik ölçümler (boy, kilo, BKI, yağ oranı)</li><li>Beslenme anamnezi</li><li>Kişiye özel beslenme planı</li><li>Kronik hastalık diyetleri (diyabet, hipertansiyon, böbrek)</li><li>Kilo yönetimi programları</li><li>Düzenli takip ve plan güncelleme</li></ul>`,
+        },
+        {
+            title: "Evde Psikolojik Destek",
+            slug: "evde-psikolojik-destek",
+            short_description: "Psikolojik danışmanlık ve terapi hizmetleri. Uzman psikologlarla evinizde terapi seansları.",
+            cover_image: "/images/psikolojikdestek.png",
+            meta_title: "Evde Psikolojik Destek İstanbul | City In Health",
+            meta_description: "Evde psikolojik destek ve danışmanlık. Uzman psikologlarla terapi seansları. İstanbul 39 ilçede.",
+            content_html: `<h2>Evde Psikolojik Destek Nedir?</h2><p>Evde psikolojik destek, uzman psikolog veya psikiyatristin evinize gelerek terapi seansları gerçekleştirmesidir. Evden çıkamayan, sosyal fobisi olan veya ev ortamında daha rahat hisseden bireyler için idealdir.</p><h2>Hizmet Kapsamı</h2><ul><li>Bireysel psikoterapi</li><li>Depresyon ve anksiyete terapisi</li><li>Travma sonrası stres bozukluğu (TSSB)</li><li>Kronik hastalık psikolojik desteği</li><li>Aile danışmanlığı</li><li>Yas süreci desteği</li></ul><h2>Kimler İçin?</h2><ul><li>Evden çıkamayan bireyler</li><li>Kronik hastalığı olan ve psikolojik destek gereken hastalar</li><li>Yaşlı bireyler</li><li>Bakıcı yakınları (tükenmişlik sendromu)</li></ul>`,
+        },
+    ],
+};
