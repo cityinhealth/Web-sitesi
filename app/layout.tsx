@@ -53,7 +53,7 @@ export const metadata: Metadata = {
       "İstanbul genelinde 7/24 profesyonel evde sağlık hizmeti. Alanında uzman ekibimizle yanınızdayız.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/images/logo.png",
         width: 1200,
         height: 630,
         alt: "City In Health - İstanbul Evde Sağlık Hizmetleri",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     title: "City In Health | İstanbul Evde Sağlık Hizmetleri",
     description:
       "İstanbul genelinde 7/24 profesyonel evde sağlık hizmeti.",
-    images: ["/og-image.jpg"],
+    images: ["/images/logo.png"],
   },
   robots: {
     index: true,
