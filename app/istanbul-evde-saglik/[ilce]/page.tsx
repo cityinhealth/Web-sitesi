@@ -46,7 +46,7 @@ export default async function DistrictPage({ params }: { params: Promise<{ ilce:
     const faqs = [
         {
             question: `${dn}'de evde sağlık hizmeti alabilir miyim?`,
-            answer: `Evet, City In Health olarak ${dn} bölgesinde 7/24 evde sağlık hizmeti sunuyoruz. Evde serum, hemşirelik, fizyoterapi, yaşlı bakımı, doktor muayenesi ve daha birçok hizmetimizle ${dn}'nin her mahallesine ulaşıyoruz.`
+            answer: `Evet, City in Health olarak ${dn} bölgesinde 7/24 evde sağlık hizmeti sunuyoruz. Evde serum, hemşirelik, fizyoterapi, yaşlı bakımı, doktor muayenesi ve daha birçok hizmetimizle ${dn}'nin her mahallesine ulaşıyoruz.`
         },
         {
             question: `${dn}'de evde serum takma hizmeti var mı?`,
@@ -123,7 +123,7 @@ export default async function DistrictPage({ params }: { params: Promise<{ ilce:
                                 {dn}&apos;de Sunduğumuz Evde Sağlık Hizmetleri
                             </h2>
                             <p className="text-muted leading-relaxed mb-8">
-                                City In Health olarak {dn} bölgesinde kapsamlı evde sağlık hizmetleri sunuyoruz. Deneyimli ve sertifikalı sağlık profesyonellerimiz, evinizin konforunda en kaliteli bakımı sağlamak için {dn}&apos;nin her mahallesine ulaşır. Tüm hizmetlerimiz CE sertifikalı tek kullanımlık steril malzemelerle gerçekleştirilir.
+                                City in Health olarak {dn} bölgesinde kapsamlı evde sağlık hizmetleri sunuyoruz. Deneyimli ve sertifikalı sağlık profesyonellerimiz, evinizin konforunda en kaliteli bakımı sağlamak için {dn}&apos;nin her mahallesine ulaşır. Tüm hizmetlerimiz CE sertifikalı tek kullanımlık steril malzemelerle gerçekleştirilir.
                             </p>
 
                             {/* Services Grid with Images */}
@@ -151,13 +151,13 @@ export default async function DistrictPage({ params }: { params: Promise<{ ilce:
                             <h2 className="text-2xl font-bold text-secondary mb-4">{dn} Evde Sağlık Hizmeti Rehberi</h2>
                             <div className="prose max-w-none text-muted leading-relaxed space-y-4 mb-12">
                                 <p>
-                                    <strong>{dn}</strong>, İstanbul&apos;un en önemli ilçelerinden biridir. <strong>City In Health</strong> olarak {dn} sakinlerine evde hemşirelik, evde serum takma, yaşlı bakımı, hasta bakımı, evde fizyoterapi ve evde doktor muayenesi gibi geniş kapsamlı sağlık hizmetleri sunuyoruz.
+                                    <strong>{dn}</strong>, İstanbul&apos;un en önemli ilçelerinden biridir. <strong>City in Health</strong> olarak {dn} sakinlerine evde hemşirelik, evde serum takma, yaşlı bakımı, hasta bakımı, evde fizyoterapi ve evde doktor muayenesi gibi geniş kapsamlı sağlık hizmetleri sunuyoruz.
                                 </p>
                                 <p>
                                     {dn}&apos;de evde sağlık hizmeti almak çok kolay. Tek yapmanız gereken bizi <strong>{SITE_CONFIG.phone}</strong> numaralı telefondan aramak veya WhatsApp üzerinden iletişime geçmektir. Sağlık danışmanlarımız ihtiyacınıza en uygun hizmet planını oluşturacak ve en kısa sürede uzman ekibimizi evinize yönlendirecektir.
                                 </p>
 
-                                <h3>Neden {dn}&apos;de City In Health?</h3>
+                                <h3>Neden {dn}&apos;de City in Health?</h3>
                                 <ul>
                                     <li><strong>7/24 Kesintisiz Hizmet:</strong> Hafta sonu ve resmi tatiller dahil her gün {dn}&apos;de hizmetinizdeyiz.</li>
                                     <li><strong>Sertifikalı Ekip:</strong> Tüm sağlık personelimiz lisanslı, sertifikalı ve minimum 5 yıl deneyimlidir.</li>

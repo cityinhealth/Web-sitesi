@@ -140,13 +140,13 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative max-w-md mx-auto lg:mx-0">
               <div className="relative aspect-[4/5] rounded-2xl overflow-hidden card-shadow bg-white">
-                <Image src={TEAM_IMAGE} alt="City In Health profesyonel ekip" fill className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
+                <Image src={TEAM_IMAGE} alt="City in Health profesyonel ekip" fill className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
               </div>
             </div>
             <div>
               <span className="inline-block px-4 py-1.5 bg-primary/10 text-primary text-sm font-semibold rounded-full mb-4">Neden Biz?</span>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-secondary mb-6">Güvenilir Sağlık Hizmetleri</h2>
-              <p className="text-muted leading-relaxed mb-6">City In Health olarak, İstanbul&apos;un her köşesine profesyonel evde sağlık hizmeti ulaştırıyoruz. Sertifikalı ekibimiz ve modern ekipmanlarımızla sağlığınızı güvence altına alıyoruz.</p>
+              <p className="text-muted leading-relaxed mb-6">City in Health olarak, İstanbul&apos;un her köşesine profesyonel evde sağlık hizmeti ulaştırıyoruz. Sertifikalı ekibimiz ve modern ekipmanlarımızla sağlığınızı güvence altına alıyoruz.</p>
               <div className="space-y-4">
                 {[
                   "Sertifikalı ve deneyimli sağlık profesyonelleri",

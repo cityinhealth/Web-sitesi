@@ -3,8 +3,8 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/data/seed-data";
 
 export const metadata: Metadata = {
-    title: "KVKK Aydınlatma Metni | City In Health",
-    description: "City In Health Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında aydınlatma metni. Kişisel verilerinizin nasıl işlendiğini öğrenin.",
+    title: "KVKK Aydınlatma Metni | City in Health",
+    description: "City in Health Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında aydınlatma metni. Kişisel verilerinizin nasıl işlendiğini öğrenin.",
     alternates: { canonical: "/kvkk" },
 };
 

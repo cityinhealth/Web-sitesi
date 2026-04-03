@@ -1,0 +1,18 @@
+Şimdi yeni olarak 2 tane daha hizmetler kategorisi açmanı istiyorum. 
+
+1-Geleneksel ve tamamlayıcı Tıp Uygulamaları danışmanlığı
+* Akupunktur: Vücudun belirli noktalarına iğne uygulanması.
+* Sülük Tedavisi (Hirudoterapi): Tıbbi sülüklerin tedavi amaçlı kullanılması.
+* Kupa Terapisi (Hacamat): Vakumlama yoluyla yapılan uygulama.
+* Apiterapi: Arı ve arı ürünlerinin (bal, polen, propolis vb.) sağlık için kullanılması.
+* Fitoterapi: Bitkilerle tedavi yöntemi.
+* Mezoterapi: İlaçların cildin orta tabakasına mikroenjeksiyonla verilmesi.
+
+2-Sağlık Danışmanlık Hizmetleri
+*  Kişiye özel sağlık çözümleri.
+*  Hastane ve kurum önerileri.
+*  Hekim ve Hemşire önerileri.
+*  Medikal malzeme önerisi ve danışmanlığı.
+*  Hasta Bakıcı öneri ve danışmanlığı
+
+şeklinde eklenecek ve bu hizmetlerde diğerleri gibi fotoğraflarını images altından alacaksın. ayrıca açıklamalarını genel sitemize uyumlu şekilde yapmalısın

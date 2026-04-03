@@ -33,7 +33,7 @@ export default function StickyWhatsApp() {
                             </svg>
                         </div>
                         <div className="min-w-0">
-                            <div className="text-white font-bold text-sm">City In Health</div>
+                            <div className="text-white font-bold text-sm">City in Health</div>
                             <div className="text-white/70 text-xs">Genellikle anında yanıt verir</div>
                         </div>
                         <button

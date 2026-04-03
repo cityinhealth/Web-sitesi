@@ -16,7 +16,7 @@ export default function Footer() {
                     <div className="lg:col-span-1">
                         <Image
                             src="/images/logo.png"
-                            alt="City In Health Logo"
+                            alt="City in Health Logo"
                             width={180}
                             height={56}
                             className="h-12 w-auto object-contain brightness-0 invert mb-4"
@@ -121,7 +121,7 @@ export default function Footer() {
             <div className="border-t border-white/10">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row justify-between items-center gap-3">
                     <p className="text-xs text-white/40">
-                        © {new Date().getFullYear()} City In Health. Tüm hakları saklıdır.
+                        © {new Date().getFullYear()} City in Health. Tüm hakları saklıdır.
                     </p>
                     <div className="flex items-center gap-4 text-xs text-white/40">
                         <Link href="/gizlilik-politikasi" className="hover:text-white/60 transition-colors">Gizlilik Politikası</Link>

@@ -9,14 +9,14 @@ export const BLOG_POSTS_PART4: BlogPostData[] = [
         date: "2026-03-15",
         readTime: "10 dk",
         coverImage: "/images/evd-serum.png",
-        meta_title: "Evde Serum Taktırmanın 10 Faydası | City In Health",
+        meta_title: "Evde Serum Taktırmanın 10 Faydası | City in Health",
         meta_description: "Evde serum taktırma hizmeti İstanbul 39 ilçede 7/24. Enfeksiyon riski düşük, birebir ilgi, konfor. Evde serum fiyatları ve süreç rehberi.",
         tags: ["evde serum", "serum taktırma", "IV tedavi", "evde sağlık", "vitamin serum"],
         content: `## Evde Serum Taktırmanın 10 Faydası ve Dikkat Edilmesi Gerekenler
 
 Yorgunluk, dehidrasyon, vitamin eksikliği ya da gribal enfeksiyon... Bunların hepsi, vücudun hızla takviye edilmesi gereken durumlar arasında yer alıyor. Geleneksel yöntemde aklımıza hemen hastaneye gitmek geliyor; uzun bekleme süreleri, kalabalık poliklinikler ve yoğun tempo. Oysa günümüzde **evde serum taktırma hizmeti**, hem daha konforlu hem de daha güvenli bir alternatif olarak öne çıkıyor.
 
-Bu yazıda, **evde serum taktırmanın 10 önemli faydasını**, dikkat edilmesi gereken noktaları, sürecin nasıl işlediğini ve sıkça sorulan soruların yanıtlarını bulacaksınız. İstanbul'un 39 ilçesinde **7/24 evde sağlık hizmeti** sunan **City In Health** olarak, bu konuda bilmeniz gereken her şeyi sizin için derledik.
+Bu yazıda, **evde serum taktırmanın 10 önemli faydasını**, dikkat edilmesi gereken noktaları, sürecin nasıl işlediğini ve sıkça sorulan soruların yanıtlarını bulacaksınız. İstanbul'un 39 ilçesinde **7/24 evde sağlık hizmeti** sunan **City in Health** olarak, bu konuda bilmeniz gereken her şeyi sizin için derledik.
 
 ## 1. Evde Serum Taktırma Nedir?
 
@@ -42,7 +42,7 @@ Evde serum hizmetinde **randevudan uygulamanın tamamlanmasına kadar** genellik
 
 ### Fayda 5: 7/24 Ulaşılabilirlik
 
-**City In Health olarak İstanbul'un 39 ilçesinde 7/24** evde serum hizmeti sunuyoruz.
+**City in Health olarak İstanbul'un 39 ilçesinde 7/24** evde serum hizmeti sunuyoruz.
 
 ### Fayda 6: Hızlı Etki
 
@@ -96,7 +96,7 @@ Serum tamamlandıktan sonra kateter çıkarılır ve sonraki adımlara ilişkin 
 
 ## 5. Evde Serum ile Hastane Karşılaştırması
 
-| Özellik | Evde Serum (City In Health) | Hastane |
+| Özellik | Evde Serum (City in Health) | Hastane |
 |---|---|---|
 | **Bekleme Süresi** | Yok (randevuya göre) | 1-4 saat arası |
 | **Enfeksiyon Riski** | Düşük | Yüksek (çapraz enfeksiyon) |
@@ -139,7 +139,7 @@ Bazı basit hidrasyon serumları için sadece sağlık değerlendirmesi yeterli 
 
 ## Sonuç
 
-Evde serum taktırma; yalnızca bir kolaylık değil, aynı zamanda **enfeksiyon riskini azaltan, iyileşmeyi hızlandıran ve kişiye özel ilgi sunan** tıbbi açıdan da değerli bir seçenektir. Profesyonel destek almak için **City In Health**'i arayın: **0216 606 34 12**`,
+Evde serum taktırma; yalnızca bir kolaylık değil, aynı zamanda **enfeksiyon riskini azaltan, iyileşmeyi hızlandıran ve kişiye özel ilgi sunan** tıbbi açıdan da değerli bir seçenektir. Profesyonel destek almak için **City in Health**'i arayın: **0216 606 34 12**`,
     },
     {
         slug: "evde-yasli-bakimi-rehberi",
@@ -149,7 +149,7 @@ Evde serum taktırma; yalnızca bir kolaylık değil, aynı zamanda **enfeksiyon
         date: "2026-03-14",
         readTime: "12 dk",
         coverImage: "/images/yaslibakim.png",
-        meta_title: "Evde Yaşlı Bakımı Rehberi 2026 | City In Health",
+        meta_title: "Evde Yaşlı Bakımı Rehberi 2026 | City in Health",
         meta_description: "Evde yaşlı bakımı nasıl yapılır? Düşme riski, ilaç takibi, beslenme, Alzheimer bakımı. İstanbul 39 ilçede 7/24 profesyonel yaşlı bakım hizmeti.",
         tags: ["yaşlı bakımı", "evde bakım", "Alzheimer", "demans", "geriatri"],
         content: `## Evde Yaşlı Bakımı Rehberi: Aileler İçin Bilmeniz Gereken Her Şey
@@ -222,12 +222,12 @@ Hipertansiyon, diyabet, kalp yetmezliği ve KOAH gibi kronik hastalıkların **d
 Tüm evde yaşlı bakım hizmetleri için doktor zorunlu değildir; ancak tıbbi işlemler için mutlaka sağlık profesyonelinin yönlendirmesi gerekir.
 
 ### Alzheimer hastası olan yakınım için evde bakım mümkün mü?
-**Evet,** City In Health olarak bu alanda deneyimli sağlık personeliyle **özelleştirilmiş demans bakımı** sağlıyoruz.
+**Evet,** City in Health olarak bu alanda deneyimli sağlık personeliyle **özelleştirilmiş demans bakımı** sağlıyoruz.
 
 ### Aile olarak bakım verirken tükenmişlik yaşıyorum, ne yapmalıyım?
 Profesyonel destek almak, sevdiğinize daha az değer verdiğiniz anlamına gelmiyor; aksine **sürdürülebilir bir bakım modeli** kurmak demek.
 
-**City In Health** olarak İstanbul'un **39 ilçesinde**, **7 gün 24 saat** evde yaşlı bakım hizmeti sunuyoruz. Hemen arayın: **0216 606 34 12**`,
+**City in Health** olarak İstanbul'un **39 ilçesinde**, **7 gün 24 saat** evde yaşlı bakım hizmeti sunuyoruz. Hemen arayın: **0216 606 34 12**`,
     },
     {
         slug: "evde-fizyoterapi-rehberi",
@@ -237,7 +237,7 @@ Profesyonel destek almak, sevdiğinize daha az değer verdiğiniz anlamına gelm
         date: "2026-03-13",
         readTime: "10 dk",
         coverImage: "/images/fizyoterapi.png",
-        meta_title: "Evde Fizyoterapi Rehberi | İstanbul 7/24 | City In Health",
+        meta_title: "Evde Fizyoterapi Rehberi | İstanbul 7/24 | City in Health",
         meta_description: "Evde fizyoterapi kimlere gereklidir? Felç rehabilitasyonu, diz-kalça protezi sonrası, bel fıtığı. İstanbul 39 ilçede evde fizik tedavi hizmeti.",
         tags: ["evde fizyoterapi", "fizik tedavi", "rehabilitasyon", "felç", "protez"],
         content: `## Evde Fizyoterapi: Kimlere Gereklidir ve Nasıl Yapılır?
@@ -295,7 +295,7 @@ Hayır. Fizyoterapistimiz taşınabilir ekipmanları yanında getirir.
 ### Evde fizyoterapi yalnızca yaşlılar için mi?
 Kesinlikle hayır. Her yaştan birey için uygundur.
 
-**City In Health** olarak İstanbul'un **39 ilçesinde 7 gün 24 saat** evde fizyoterapi hizmeti sunuyoruz. Hemen arayın: **0216 606 34 12**`,
+**City in Health** olarak İstanbul'un **39 ilçesinde 7 gün 24 saat** evde fizyoterapi hizmeti sunuyoruz. Hemen arayın: **0216 606 34 12**`,
     },
     {
         slug: "evde-kan-tahlili-ve-checkup",
@@ -305,7 +305,7 @@ Kesinlikle hayır. Her yaştan birey için uygundur.
         date: "2026-03-12",
         readTime: "8 dk",
         coverImage: "/images/evde-kan-tahlili.png",
-        meta_title: "Evde Kan Tahlili ve Check-Up Hizmeti | City In Health",
+        meta_title: "Evde Kan Tahlili ve Check-Up Hizmeti | City in Health",
         meta_description: "Evde kan tahlili İstanbul 7/24. Tam kan sayımı, tiroid, vitamin, kolesterol, hormon testi. Evde check-up paketleri. Akredite laboratuvar sonuçları.",
         tags: ["evde kan tahlili", "check-up", "kan alma", "laboratuvar", "sağlık kontrolü"],
         content: `## Evde Kan Tahlili ve Check-Up: Hastaneye Gitmeden Sağlık Kontrolü
@@ -360,6 +360,6 @@ Sağlık kontrolü ertelendikçe küçük sorunlar büyüyor, erken yakalanabile
 ### Çocuklar için de evde kan tahlili yapılabiliyor mu?
 **Evet**, sağlık personelimiz pediatrik kan alma konusunda deneyimlidir.
 
-**City In Health** olarak İstanbul'un **39 ilçesinde, 7 gün 24 saat** evde kan tahlili hizmeti sunuyoruz. Hemen arayın: **0216 606 34 12**`,
+**City in Health** olarak İstanbul'un **39 ilçesinde, 7 gün 24 saat** evde kan tahlili hizmeti sunuyoruz. Hemen arayın: **0216 606 34 12**`,
     },
 ];

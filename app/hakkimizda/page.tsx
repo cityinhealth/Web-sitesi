@@ -5,8 +5,8 @@ import { SITE_CONFIG } from "@/lib/data/seed-data";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
 
 export const metadata: Metadata = {
-    title: "Hakkımızda | City In Health - İstanbul Evde Sağlık Hizmetleri",
-    description: "City In Health olarak İstanbul genelinde 15 yılı aşkın deneyimimizle evde sağlık hizmetleri sunuyoruz. Sertifikalı ekibimiz ve profesyonel yaklaşımımızla tanışın.",
+    title: "Hakkımızda | City in Health - İstanbul Evde Sağlık Hizmetleri",
+    description: "City in Health olarak İstanbul genelinde 15 yılı aşkın deneyimimizle evde sağlık hizmetleri sunuyoruz. Sertifikalı ekibimiz ve profesyonel yaklaşımımızla tanışın.",
     alternates: { canonical: "/hakkimizda" },
 };
 
@@ -35,7 +35,7 @@ export default function AboutPage() {
                                 Hakkımızda
                             </h1>
                             <p className="text-lg text-muted leading-relaxed mb-6">
-                                City In Health olarak, İstanbul genelinde 15 yılı aşkın süredir profesyonel evde sağlık hizmetleri sunuyoruz.
+                                City in Health olarak, İstanbul genelinde 15 yılı aşkın süredir profesyonel evde sağlık hizmetleri sunuyoruz.
                                 Sertifikalı sağlık ekibimiz ve modern tıbbi ekipmanlarımızla hastalarımızın yaşam kalitesini artırmayı hedefliyoruz.
                             </p>
                             <p className="text-muted leading-relaxed mb-6">
@@ -50,7 +50,7 @@ export default function AboutPage() {
                         <div className="relative aspect-[4/5] rounded-2xl overflow-hidden card-shadow bg-white">
                             <Image
                                 src="/images/teyze.png"
-                                alt="City In Health profesyonel sağlık ekibi"
+                                alt="City in Health profesyonel sağlık ekibi"
                                 fill
                                 className="object-cover"
                                 sizes="(max-width: 1024px) 100vw, 50vw"

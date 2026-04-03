@@ -123,14 +123,14 @@ export default async function ServicePage({ params }: { params: Promise<{ catego
                                 <>
                                     <h2 className="text-2xl font-bold text-secondary mb-4">{svc.title} Hakkında</h2>
                                     <p className="text-muted leading-relaxed mb-4">{svc.meta_description || svc.short_description}</p>
-                                    <p className="text-muted leading-relaxed mb-8">City In Health olarak, {svc.title.toLowerCase()} hizmetini İstanbul&apos;un 39 ilçesinde, sertifikalı sağlık profesyonellerimizle sunuyoruz.</p>
+                                    <p className="text-muted leading-relaxed mb-8">City in Health olarak, {svc.title.toLowerCase()} hizmetini İstanbul&apos;un 39 ilçesinde, sertifikalı sağlık profesyonellerimizle sunuyoruz.</p>
                                 </>
                             )}
 
                             {/* Why Us */}
                             <div className="mt-12 bg-background-alt rounded-2xl p-8 border border-border">
                                 <h3 className="text-xl font-bold text-secondary mb-6">
-                                    Neden City In Health?
+                                    Neden City in Health?
                                 </h3>
                                 <div className="grid sm:grid-cols-2 gap-4">
                                     {[

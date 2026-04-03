@@ -5,7 +5,7 @@ import { ALL_BLOG_POSTS } from "@/lib/data/all-blog-posts";
 
 export const metadata: Metadata = {
     title: "Blog & Sağlık Rehberi",
-    description: "Evde sağlık, bakım ve hemşirelik hakkında uzman bilgileri, rehberler ve güncel makaleler. City In Health blog.",
+    description: "Evde sağlık, bakım ve hemşirelik hakkında uzman bilgileri, rehberler ve güncel makaleler. City in Health blog.",
     alternates: { canonical: "/blog" },
 };
 

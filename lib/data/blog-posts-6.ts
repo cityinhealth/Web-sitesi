@@ -9,7 +9,7 @@ export const BLOG_POSTS_PART6: BlogPostData[] = [
         date: "2026-03-08",
         readTime: "8 dk",
         coverImage: "/images/evde-doktor-hizmetleri.png",
-        meta_title: "Evde Doktor Hizmeti İstanbul 7/24 | City In Health",
+        meta_title: "Evde Doktor Hizmeti İstanbul 7/24 | City in Health",
         meta_description: "Evde doktor muayenesi İstanbul 39 ilçe 7/24. Reçete yazımı, EKG, sağlık raporu, check-up. Yaşlı, çocuk ve yatalak hastalar için ideal.",
         tags: ["evde doktor", "evde muayene", "doktor hizmeti", "reçete", "EKG"],
         content: `## Evde Doktor Hizmeti: Evde Muayene Ne Zaman Gereklidir?
@@ -61,12 +61,12 @@ Evde doktor hizmeti; lisanslı ve deneyimli bir hekimin, hastanın kendi yaşam 
 **Gerçek ve kapsamlı bir tıbbi muayenedir.** Tek fark, ortamın poliklinik yerine eviniz olmasıdır.
 
 ### Gece yarısı da evde doktor çağırabilir miyim?
-**Evet.** City In Health 7 gün 24 saat kesintisiz hizmet vermektedir.
+**Evet.** City in Health 7 gün 24 saat kesintisiz hizmet vermektedir.
 
 ### Evde doktor hangi durumlarda acile yönlendirir?
 İleri tetkik, cerrahi müdahale veya yoğun bakım gerektirdiğini belirlediği durumlarda yönlendirir.
 
-**City In Health** olarak İstanbul'un **39 ilçesinde, 7 gün 24 saat** evde doktor hizmeti sunuyoruz. Hemen arayın: **0216 606 34 12**`,
+**City in Health** olarak İstanbul'un **39 ilçesinde, 7 gün 24 saat** evde doktor hizmeti sunuyoruz. Hemen arayın: **0216 606 34 12**`,
     },
     {
         slug: "b12-vitamini-eksikligi-ve-tedavisi",
@@ -76,7 +76,7 @@ Evde doktor hizmeti; lisanslı ve deneyimli bir hekimin, hastanın kendi yaşam 
         date: "2026-03-07",
         readTime: "9 dk",
         coverImage: "/images/B12-vitamin.png",
-        meta_title: "B12 Vitamini Eksikliği ve Evde Serum Tedavisi | City In Health",
+        meta_title: "B12 Vitamini Eksikliği ve Evde Serum Tedavisi | City in Health",
         meta_description: "B12 eksikliği belirtileri: yorgunluk, uyuşma, hafıza kaybı. Normal değerler tablosu. Evde B12 enjeksiyon ve serum tedavisi İstanbul 7/24.",
         tags: ["B12 vitamini", "B12 eksikliği", "vitamin serum", "anemi", "nöropati"],
         content: `## B12 Vitamini Eksikliği: Belirtileri, Tehlikeleri ve Evde Serum Tedavisi
@@ -152,7 +152,7 @@ Emilim sorunu yoksa ve hafif eksiklikte oral yeterli olabilir. Pernisiyöz anemi
 ### B12 tedavisi ne kadar sürer?
 Beslenme kaynaklı eksiklikte birkaç aylık takviyeyle düzelir. Pernisiyöz anemide ömür boyu takviye gerekir.
 
-**City In Health** olarak İstanbul'un **39 ilçesinde, 7 gün 24 saat** evde B12 tedavisi sunuyoruz. Hemen arayın: **0216 606 34 12**`,
+**City in Health** olarak İstanbul'un **39 ilçesinde, 7 gün 24 saat** evde B12 tedavisi sunuyoruz. Hemen arayın: **0216 606 34 12**`,
     },
     {
         slug: "evde-sonda-bakimi-rehberi",
@@ -162,7 +162,7 @@ Beslenme kaynaklı eksiklikte birkaç aylık takviyeyle düzelir. Pernisiyöz an
         date: "2026-03-06",
         readTime: "9 dk",
         coverImage: "/images/evde-sonda.png",
-        meta_title: "Evde Sonda Bakımı ve Değişimi Rehberi | City In Health",
+        meta_title: "Evde Sonda Bakımı ve Değişimi Rehberi | City in Health",
         meta_description: "Evde sonda bakımı nasıl yapılır? Foley, nelaton, sistostomi kateteri. Günlük bakım rutini, değiştirme sıklığı, enfeksiyon belirtileri. İstanbul 7/24.",
         tags: ["sonda bakımı", "kateter", "evde hemşire", "idrar sondası", "foley"],
         content: `## Evde Sonda Bakımı ve Değişimi: Hasta Yakınları İçin Kapsamlı Rehber
@@ -236,6 +236,6 @@ Sondaya dokunmadan önce ve sonra **en az 20 saniye sabunlu suyla** eller yıkan
 ### Sonda takılı hasta nasıl banyo yapabilir?
 **Duş almak serbesttir;** ancak küvet banyosu enfeksiyon riski nedeniyle önerilmez.
 
-**City In Health** olarak İstanbul'un **39 ilçesinde, 7 gün 24 saat** evde sonda bakımı hizmeti sunuyoruz. Hemen arayın: **0216 606 34 12**`,
+**City in Health** olarak İstanbul'un **39 ilçesinde, 7 gün 24 saat** evde sonda bakımı hizmeti sunuyoruz. Hemen arayın: **0216 606 34 12**`,
     },
 ];

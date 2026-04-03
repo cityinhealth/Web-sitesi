@@ -22,7 +22,7 @@ Dosyanın içindeki dizi `[]` kapanmadan önce, son blog yazısından sonra virg
         date: "2026-04-01",                      // YYYY-MM-DD formatı
         readTime: "10 dk",
         coverImage: "/images/gorsel-adi.png",    // public/images/ altına koyduğunuz görsel
-        meta_title: "SEO Başlığı | City In Health",
+        meta_title: "SEO Başlığı | City in Health",
         meta_description: "Google'da görünecek açıklama (max 155 karakter)",
         tags: ["etiket1", "etiket2"],
         content: `

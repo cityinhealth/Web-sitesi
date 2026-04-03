@@ -3,8 +3,8 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/data/seed-data";
 
 export const metadata: Metadata = {
-    title: "Gizlilik Politikası | City In Health",
-    description: "City In Health gizlilik politikası. Kişisel bilgilerinizin nasıl toplandığı, kullanıldığı ve korunduğu hakkında detaylı bilgi.",
+    title: "Gizlilik Politikası | City in Health",
+    description: "City in Health gizlilik politikası. Kişisel bilgilerinizin nasıl toplandığı, kullanıldığı ve korunduğu hakkında detaylı bilgi.",
     alternates: { canonical: "/gizlilik-politikasi" },
 };
 

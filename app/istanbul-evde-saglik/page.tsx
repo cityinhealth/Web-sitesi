@@ -6,7 +6,7 @@ import { SITE_CONFIG } from "@/lib/data/seed-data";
 
 export const metadata: Metadata = {
   title: "İstanbul Evde Sağlık Hizmeti Bölgelerimiz | 39 İlçede 7/24 Hizmet",
-  description: "City In Health olarak İstanbul'un 39 ilçesinde evde sağlık hizmeti veriyoruz. Evde serum, hemşirelik, fizyoterapi, yaşlı bakımı, doktor hizmeti. Avrupa ve Anadolu yakasında 7/24 profesyonel ekip.",
+  description: "City in Health olarak İstanbul'un 39 ilçesinde evde sağlık hizmeti veriyoruz. Evde serum, hemşirelik, fizyoterapi, yaşlı bakımı, doktor hizmeti. Avrupa ve Anadolu yakasında 7/24 profesyonel ekip.",
   alternates: { canonical: "/istanbul-evde-saglik" },
 };
 
@@ -112,7 +112,7 @@ export default function HizmetBolgeleriPage() {
             <h2 className="text-2xl font-bold text-[#1B2A4A] mb-6">İstanbul Genelinde Evde Sağlık Hizmeti</h2>
             <div className="prose max-w-none text-muted leading-relaxed space-y-4">
               <p>
-                <strong>City In Health</strong>, İstanbul&apos;un <strong>39 ilçesinin tamamında</strong> 7/24 kesintisiz evde sağlık hizmeti sunan güvenilir bir sağlık kuruluşudur. 15 yılı aşkın deneyimimiz ve sertifikalı sağlık profesyonellerimizle, evinizin konforunda en kaliteli sağlık hizmetini almanızı sağlıyoruz.
+                <strong>City in Health</strong>, İstanbul&apos;un <strong>39 ilçesinin tamamında</strong> 7/24 kesintisiz evde sağlık hizmeti sunan güvenilir bir sağlık kuruluşudur. 15 yılı aşkın deneyimimiz ve sertifikalı sağlık profesyonellerimizle, evinizin konforunda en kaliteli sağlık hizmetini almanızı sağlıyoruz.
               </p>
               <p>
                 <strong>Evde serum tedavisi</strong>, <strong>evde hemşirelik</strong>, <strong>evde fizyoterapi</strong>, <strong>evde doktor muayenesi</strong>, <strong>evde kan alma ve tahlil</strong>, <strong>evde yara bakımı</strong> ve <strong>yaşlı-engelli bakımı</strong> başta olmak üzere geniş bir hizmet yelpazesiyle İstanbul&apos;un Avrupa ve Anadolu yakasındaki tüm ilçelerde faaliyet gösteriyoruz.

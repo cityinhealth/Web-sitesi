@@ -3,8 +3,8 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/data/seed-data";
 
 export const metadata: Metadata = {
-    title: "Kullanım Koşulları | City In Health",
-    description: "City In Health web sitesi kullanım koşulları. Site kullanımıyla ilgili kurallar, sorumluluklar ve yasal bilgiler.",
+    title: "Kullanım Koşulları | City in Health",
+    description: "City in Health web sitesi kullanım koşulları. Site kullanımıyla ilgili kurallar, sorumluluklar ve yasal bilgiler.",
     alternates: { canonical: "/kullanim-kosullari" },
 };
 

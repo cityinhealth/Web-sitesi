@@ -25,7 +25,7 @@ export async function POST(request: NextRequest) {
                     body: JSON.stringify({
                         access_key: WEB3FORMS_KEY,
                         subject: `🏥 Yeni Hasta Talebi - ${full_name}`,
-                        from_name: "City In Health Web Sitesi",
+                        from_name: "City in Health Web Sitesi",
                         name: full_name,
                         phone: phone,
                         service: service_requested || "Belirtilmedi",

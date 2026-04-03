@@ -5,8 +5,8 @@ import LeadForm from "@/components/ui/LeadForm";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
 
 export const metadata: Metadata = {
-    title: "İletişim | City In Health - Bize Ulaşın",
-    description: "City In Health ile iletişime geçin. Telefon, WhatsApp veya form aracılığıyla 7/24 ulaşabilirsiniz. İstanbul genelinde evde sağlık hizmeti.",
+    title: "İletişim | City in Health - Bize Ulaşın",
+    description: "City in Health ile iletişime geçin. Telefon, WhatsApp veya form aracılığıyla 7/24 ulaşabilirsiniz. İstanbul genelinde evde sağlık hizmeti.",
     alternates: { canonical: "/iletisim" },
 };
 

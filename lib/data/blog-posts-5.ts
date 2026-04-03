@@ -9,7 +9,7 @@ export const BLOG_POSTS_PART5: BlogPostData[] = [
         date: "2026-03-11",
         readTime: "10 dk",
         coverImage: "/images/evde-hemsirelik-hizmetleri.png",
-        meta_title: "Evde Hemşirelik Hizmetleri Rehberi | City In Health",
+        meta_title: "Evde Hemşirelik Hizmetleri Rehberi | City in Health",
         meta_description: "Evde hemşire hizmeti İstanbul 39 ilçe 7/24. Serum, enjeksiyon, yara bakımı, sonda, kan alma, ilaç takibi. Lisanslı hemşire kadrosu.",
         tags: ["evde hemşire", "hemşirelik", "serum", "enjeksiyon", "yara bakımı"],
         content: `## Evde Hemşirelik Hizmetleri: Kapsamı, Süreci ve Merak Edilenler
@@ -56,7 +56,7 @@ Evde hemşirelik; lisanslı ve deneyimli hemşirelerin, hastanın kendi yaşam o
 
 ## Hemşirelerin Eğitim ve Sertifika Bilgileri
 
-City In Health bünyesindeki tüm hemşire ve sağlık personelimiz:
+City in Health bünyesindeki tüm hemşire ve sağlık personelimiz:
 - Lisans veya ön lisans düzeyinde hemşirelik eğitimi almıştır
 - Sağlık Bakanlığı'na kayıtlı, geçerli mesleki belgelerine sahiptir
 - Temel yaşam desteği (TYD) sertifikasına sahiptir
@@ -74,12 +74,12 @@ City In Health bünyesindeki tüm hemşire ve sağlık personelimiz:
 İlaç içerikli uygulamalar için doktor istemi gereklidir. Vital takibi, kan alma, pansuman için reçete zorunlu değildir.
 
 ### Hemşire haftanın her günü ve gece de gelebilir mi?
-**Evet.** City In Health **7 gün 24 saat** kesintisiz çalışmaktadır.
+**Evet.** City in Health **7 gün 24 saat** kesintisiz çalışmaktadır.
 
 ### Aynı anda birden fazla işlem yaptırılabilir mi?
 **Evet.** Hemşireniz aynı ziyarette hem kan alabilir hem pansuman yapabilir hem de vital ölçebilir.
 
-**City In Health** olarak İstanbul'un **39 ilçesinde, 7 gün 24 saat** evde hemşirelik hizmeti sunuyoruz. Hemen arayın: **0216 606 34 12**`,
+**City in Health** olarak İstanbul'un **39 ilçesinde, 7 gün 24 saat** evde hemşirelik hizmeti sunuyoruz. Hemen arayın: **0216 606 34 12**`,
     },
     {
         slug: "yuksek-doz-c-vitamini-serum-tedavisi",
@@ -89,7 +89,7 @@ City In Health bünyesindeki tüm hemşire ve sağlık personelimiz:
         date: "2026-03-10",
         readTime: "9 dk",
         coverImage: "/images/C-vitamin-serumu.png",
-        meta_title: "Yüksek Doz C Vitamini Serum Tedavisi | City In Health",
+        meta_title: "Yüksek Doz C Vitamini Serum Tedavisi | City in Health",
         meta_description: "Yüksek doz IV C vitamini tedavisi İstanbul'da evde. Bağışıklık güçlendirme, antioksidan, enerji. Oral vs IV karşılaştırması. 7/24 hizmet.",
         tags: ["C vitamini", "serum tedavisi", "bağışıklık", "antioksidan", "IV tedavi"],
         content: `## Yüksek Doz C Vitamini Serum Tedavisi
@@ -144,7 +144,7 @@ Hayır. İyi tasarlanmış klinik çalışmalarla desteklenen faydalara sahip me
 ### C vitamini infüzyonu ağrılı mıdır?
 Doğru teknikle ve uygun hızda uygulandığında büyük çoğunlukla rahatsızlık yaratmaz.
 
-**City In Health** olarak İstanbul'un **39 ilçesinde, 7 gün 24 saat** evde C vitamini infüzyonu hizmeti sunuyoruz. Hemen arayın: **0216 606 34 12**`,
+**City in Health** olarak İstanbul'un **39 ilçesinde, 7 gün 24 saat** evde C vitamini infüzyonu hizmeti sunuyoruz. Hemen arayın: **0216 606 34 12**`,
     },
     {
         slug: "ameliyat-sonrasi-evde-bakim",
@@ -154,7 +154,7 @@ Doğru teknikle ve uygun hızda uygulandığında büyük çoğunlukla rahatsız
         date: "2026-03-09",
         readTime: "10 dk",
         coverImage: "/images/ameliyatsonrasiyarabakimi.png",
-        meta_title: "Ameliyat Sonrası Evde Bakım Rehberi | City In Health",
+        meta_title: "Ameliyat Sonrası Evde Bakım Rehberi | City in Health",
         meta_description: "Ameliyat sonrası evde bakım İstanbul 7/24. Yara bakımı, pansuman, enjeksiyon, fizyoterapi, ilaç takibi. Diz-kalça protezi, bypass, sezaryen sonrası.",
         tags: ["ameliyat sonrası", "evde bakım", "yara bakımı", "pansuman", "rehabilitasyon"],
         content: `## Ameliyat Sonrası Evde Bakım: Hızlı İyileşme İçin Profesyonel Destek
@@ -210,6 +210,6 @@ Genel cerrahi sonrasında **5-10 gün**, ortopedik ameliyatlar sonrasında **2-4
 ### Evde yara bakımı hastanedeki kadar güvenilir mi?
 Deneyimli hemşire tarafından yapılan evde yara bakımı, hastane yara bakımıyla karşılaştırılabilir güvenilirlikte ve enfeksiyon riski açısından avantajlıdır.
 
-**City In Health** olarak İstanbul'un **39 ilçesinde, 7 gün 24 saat** ameliyat sonrası evde bakım hizmeti sunuyoruz. Hemen arayın: **0216 606 34 12**`,
+**City in Health** olarak İstanbul'un **39 ilçesinde, 7 gün 24 saat** ameliyat sonrası evde bakım hizmeti sunuyoruz. Hemen arayın: **0216 606 34 12**`,
     },
 ];

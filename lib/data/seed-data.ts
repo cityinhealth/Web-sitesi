@@ -63,7 +63,7 @@ export function getAllServiceSlugs() {
 
 // Site-wide constants
 export const SITE_CONFIG = {
-    name: "City In Health",
+    name: "City in Health",
     tagline: "İstanbul Evde Sağlık ve Bakım Hizmetleri",
     phone: "0216 606 34 12",
     whatsapp: "905418650865",
