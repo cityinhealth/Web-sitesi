@@ -11,6 +11,16 @@ export const SERUM_SERVICES_PART2 = [
 <h2>Myers Kokteyli Nedir?</h2>
 <p>Myers Kokteyli, Dr. John Myers tarafından geliştirilen ve dünya genelinde en çok uygulanan IV vitamin infüzyonudur. B1, B2, B3, B5, B6, B12 vitaminleri, C vitamini, magnezyum ve kalsiyum içerir. "Enerji serumu" olarak da bilinir. Kronik yorgunluk, migren, fibromiyalji ve üst solunum yolu enfeksiyonlarında kanıtlanmış etkinliğe sahiptir.</p>
 
+<h2>Myers Kokteyl Temel Faydaları</h2>
+<ul>
+<li>🔹 <strong>Enerji artışı:</strong> Yorgunluk ve halsizliği azaltmaya yardımcı olur</li>
+<li>🔹 <strong>Bağışıklık desteği:</strong> Vücudun direncini güçlendirir</li>
+<li>🔹 <strong>Kas ve sinir desteği:</strong> Magnezyum ve B vitaminleri ile destek sağlar</li>
+<li>🔹 <strong>Stres ve anksiyete azaltma:</strong> Rahatlamaya katkı sağlayabilir</li>
+<li>🔹 <strong>Migren desteği:</strong> Migren ataklarının azalmasına yardımcı olabilir</li>
+<li>🔹 <strong>Genel toparlanma:</strong> Vücudu hızlı şekilde destekler ve dinçlik sağlar</li>
+</ul>
+
 <h2>Tedavi Süreci Nasıldır?</h2>
 <ul>
 <li>Yavaş IV push veya kısa infüzyon şeklinde 20-30 dakikada uygulanır</li>
@@ -44,6 +54,16 @@ export const SERUM_SERVICES_PART2 = [
         content_html: `
 <h2>NAD+ Serum Tedavisi Nedir?</h2>
 <p>NAD+ (Nikotinamid Adenin Dinükleotid), vücuttaki her hücrede bulunan ve hücresel enerji üretiminde kritik rol oynayan bir koenzimdir. Yaşla birlikte NAD+ seviyeleri düşer. IV NAD+ infüzyonu, hücresel enerji üretimini artırır, DNA onarımını destekler, nöroplastisiteyi güçlendirir ve yaşlanma sürecini yavaşlatır.</p>
+
+<h2>NAD+ (NAD) Temel Faydaları</h2>
+<ul>
+<li>🔹 <strong>Enerji üretimi:</strong> Hücrelerin enerji üretimini artırmaya yardımcı olur</li>
+<li>🔹 <strong>Zihinsel performans:</strong> Odak, hafıza ve konsantrasyonu destekler</li>
+<li>🔹 <strong>Yaşlanma karşıtı etki:</strong> Hücresel yenilenmeyi destekler</li>
+<li>🔹 <strong>Yorgunluk azaltma:</strong> Fiziksel ve mental yorgunluğu azaltabilir</li>
+<li>🔹 <strong>Metabolizma desteği:</strong> Hücre fonksiyonlarının düzenli çalışmasına katkı sağlar</li>
+<li>🔹 <strong>Detoks desteği:</strong> Hücrelerin kendini temizleme süreçlerini destekler</li>
+</ul>
 
 <h2>Tedavi Süreci Nasıldır?</h2>
 <ul>
