@@ -15,11 +15,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "City in Health | İstanbul Evde Sağlık Hizmetleri",
+    default: "City in Health | Evde Serum, Hemşirelik ve Sağlık Hizmetleri İstanbul",
     template: "%s | City in Health",
   },
   description:
-    "İstanbul genelinde 7/24 evde sağlık hizmeti. Evde serum, hemşirelik, yaşlı bakımı, fizyoterapi ve daha fazlası. Profesyonel ekibimizle yanınızdayız.",
+    "City in Health - İstanbul genelinde 7/24 evde serum, evde hemşirelik, evde doktor, yaşlı bakımı, fizyoterapi ve laboratuvar hizmetleri. 39 ilçede profesyonel ekibimizle kapınızdayız.",
   keywords: [
     "City in Health",
     "cityinhealth",
@@ -64,23 +64,23 @@ export const metadata: Metadata = {
     locale: "tr_TR",
     url: "https://www.cityinhealth.com",
     siteName: "City in Health",
-    title: "City in Health | İstanbul Evde Sağlık Hizmetleri",
+    title: "City in Health | Evde Serum, Hemşirelik ve Sağlık Hizmetleri İstanbul",
     description:
-      "İstanbul genelinde 7/24 profesyonel evde sağlık hizmeti. Alanında uzman ekibimizle yanınızdayız.",
+      "City in Health - İstanbul'da 7/24 evde serum, evde hemşirelik, evde doktor, yaşlı bakımı ve fizyoterapi. 39 ilçede kapınızdayız.",
     images: [
       {
         url: "/images/logo.png",
         width: 1200,
         height: 630,
-        alt: "City in Health - İstanbul Evde Sağlık Hizmetleri",
+        alt: "City in Health - İstanbul Evde Serum ve Sağlık Hizmetleri",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "City in Health | İstanbul Evde Sağlık Hizmetleri",
+    title: "City in Health | Evde Serum ve Sağlık Hizmetleri İstanbul",
     description:
-      "İstanbul genelinde 7/24 profesyonel evde sağlık hizmeti.",
+      "İstanbul'da 7/24 evde serum, hemşirelik, doktor ve fizyoterapi hizmeti. City in Health ile sağlık kapınızda.",
     images: ["/images/logo.png"],
   },
   robots: {
