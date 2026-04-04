@@ -1,18 +1,22 @@
-Şimdi yeni olarak 2 tane daha hizmetler kategorisi açmanı istiyorum. 
+Yeni eklenecek hizmetler var
 
-1-Geleneksel ve tamamlayıcı Tıp Uygulamaları danışmanlığı
-* Akupunktur: Vücudun belirli noktalarına iğne uygulanması.
-* Sülük Tedavisi (Hirudoterapi): Tıbbi sülüklerin tedavi amaçlı kullanılması.
-* Kupa Terapisi (Hacamat): Vakumlama yoluyla yapılan uygulama.
-* Apiterapi: Arı ve arı ürünlerinin (bal, polen, propolis vb.) sağlık için kullanılması.
-* Fitoterapi: Bitkilerle tedavi yöntemi.
-* Mezoterapi: İlaçların cildin orta tabakasına mikroenjeksiyonla verilmesi.
+1.Evde Kan alma ve labaratuvar hizmetleri başlığı altına şunlar eklenecek
+ * Evde Röntgen Hizmeti, 
+ * EKO Hizmeti (Ekokardiyografi)
+ * Antikor lgG- lgM Testi
 
-2-Sağlık Danışmanlık Hizmetleri
-*  Kişiye özel sağlık çözümleri.
-*  Hastane ve kurum önerileri.
-*  Hekim ve Hemşire önerileri.
-*  Medikal malzeme önerisi ve danışmanlığı.
-*  Hasta Bakıcı öneri ve danışmanlığı
+2. Evde Doktor Hizmeti başlığı altına şunlar eklenecek
+ * Kardiyoloji Doktoru
+ * Dahiliye Doktoru
+ * Nöroloji Doktoru
 
-şeklinde eklenecek ve bu hizmetlerde diğerleri gibi fotoğraflarını images altından alacaksın. ayrıca açıklamalarını genel sitemize uyumlu şekilde yapmalısın
+3. Evde Hemşire Hizmetleri başlığı altına şunlar eklenecek
+ * Trakeostomi Bakımı
+ * Balonlu PEG Bakımı
+
+ Hali hazırda;
+ * Ultrason Hizmeti,
+ * EKG Hizmeti
+Evde kan alma ve laboratuvar hizmetleri altında yer almalı
+
+Hepsinin resimleri images altına eklenmiştir. 
