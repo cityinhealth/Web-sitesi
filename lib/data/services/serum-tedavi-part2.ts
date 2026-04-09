@@ -215,7 +215,7 @@ export const B_VITAMINS_WITH_PHOTOS = [
         title: "B12 Vitamin (Metilkobalamin) Serum Tedavisi",
         slug: "b12-vitamin-metilkobalamin-serum-tedavisi",
         short_description: "Kansızlık, nöropati ve enerji eksikliğinde metilkobalamin (aktif B12) intravenöz tedavisi.",
-        cover_image: "/images/B12-vitamin.png",
+        cover_image: "/images/b-12-new.png",
         meta_title: "Evde B12 Vitamin Serum Tedavisi İstanbul | Metilkobalamin | City in Health",
         meta_description: "B12 Vitamin (Metilkobalamin) serum tedavisi İstanbul'da evinizde. Anemi, nöropati ve enerji desteği. 39 ilçede 7/24.",
         content_html: `<h2>B12 Vitamin (Metilkobalamin) Serum Tedavisi Nedir?</h2><p>Metilkobalamin, B12 vitamininin en aktif ve biyolojik olarak kullanılabilir formudur. Kırmızı kan hücresi üretimi, DNA sentezi, sinir sistemi fonksiyonları ve enerji metabolizmasında hayati öneme sahiptir. Mide-barsak emilim sorunlarında IV/IM uygulama en etkili yöntemdir.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Megaloblastik (pernisiyöz) anemi</li><li>Periferik nöropati, uyuşma, karıncalanma</li><li>Kronik yorgunluk ve halsizlik</li><li>Vejetaryen/vegan bireylerde eksiklik</li><li>Mide ameliyatı sonrası emilim bozukluğu</li><li>Yaşlılarda kognitif destek</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>Çok güvenlidir. Suda çözünür, fazlası idrarla atılır. Ciddi yan etki riski yoktur.</p>`,
