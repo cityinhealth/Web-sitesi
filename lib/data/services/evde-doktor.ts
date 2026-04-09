@@ -61,5 +61,23 @@ export const EVDE_DOKTOR_CATEGORY = {
             meta_description: "İstanbul'da evde nöroloji uzmanı muayenesi. İnme, epilepsi, Parkinson, Alzheimer takibi. 39 ilçede 7/24.",
             content_html: `<h2>Evde Nöroloji Doktoru Hizmeti Nedir?</h2><p>Evde nöroloji hizmeti, nöroloji uzmanının evinize gelerek sinir sistemi muayenesi yapması, nörolojik hastalıklarınızı değerlendirmesi ve tedavi planınızı düzenlemesidir. Özellikle hareket kısıtlılığı olan nöroloji hastalarının hastaneye transferi zor olduğundan evde muayene büyük kolaylık sağlar.</p><h2>Muayene Kapsamı</h2><ul><li>Detaylı nörolojik muayene (kranial sinirler, motor, duyu, refleks)</li><li>İnme (felç) sonrası takip ve rehabilitasyon planlaması</li><li>Epilepsi ilaç düzenleme ve nöbet takibi</li><li>Parkinson ve hareket bozuklukları değerlendirmesi</li><li>Alzheimer ve demans takibi</li><li>Baş ağrısı ve migren tedavi düzenlemesi</li></ul><h2>Hangi Durumlar İçin?</h2><ul><li>İnme (felç) geçirmiş hastalar</li><li>Epilepsi hastaları</li><li>Parkinson hastaları</li><li>Alzheimer ve demans hastaları</li><li>MS (Multipl Skleroz) hastaları</li><li>Kronik baş ağrısı ve migren</li><li>Periferik nöropati ve uyuşma şikayetleri</li></ul>`,
         },
+        {
+            title: "Evde Fizik Tedavi Doktoru",
+            slug: "evde-fizik-tedavi-doktoru",
+            short_description: "Fiziksel tıp ve rehabilitasyon uzmanı evinize geliyor. Ağrı yönetimi, hareket kısıtlılığı ve rehabilitasyon planlaması.",
+            cover_image: "/images/evde-fizik-tedavi-doktoru.png",
+            meta_title: "Evde Fizik Tedavi Doktoru İstanbul | City in Health",
+            meta_description: "İstanbul'da evde fizik tedavi doktoru. FTR uzmanı muayenesi, rehabilitasyon planı, ağrı yönetimi. 39 ilçede 7/24.",
+            content_html: `<h2>Evde Fizik Tedavi Doktoru Hizmeti Nedir?</h2><p>Evde fizik tedavi doktoru hizmeti, Fiziksel Tıp ve Rehabilitasyon (FTR) uzmanının evinize gelerek kas-iskelet sistemi ve sinir sistemi hastalıklarınızı değerlendirmesi, rehabilitasyon programı oluşturması ve tedavi sürecinizi yönetmesidir.</p><h2>Muayene Kapsamı</h2><ul><li>Kas-iskelet sistemi detaylı muayenesi</li><li>Nörolojik rehabilitasyon değerlendirmesi</li><li>Ağrı yönetimi ve tedavi planı</li><li>Fizyoterapi programı oluşturma ve takip</li><li>Ortez/protez ihtiyaç değerlendirmesi</li><li>İlaç düzenleme ve fizik tedavi yöntemleri planlama</li></ul><h2>Hangi Durumlar İçin?</h2><ul><li>İnme (felç) sonrası rehabilitasyon</li><li>Bel ve boyun fıtığı</li><li>Kalça ve diz protezi sonrası</li><li>Kronik ağrı sendromları</li><li>Spor yaralanmaları</li><li>Romatizmal hastalıklar</li><li>Omurilik yaralanması sonrası</li></ul>`,
+        },
+        {
+            title: "Evde Üroloji Doktoru",
+            slug: "evde-uroloji-doktoru",
+            short_description: "Üroloji uzmanı evinize geliyor. İdrar yolu sorunları, prostat takibi, sonda değerlendirmesi ve böbrek hastalıkları.",
+            cover_image: "/images/evde-üroloji-doktoru.png",
+            meta_title: "Evde Üroloji Doktoru İstanbul | City in Health",
+            meta_description: "İstanbul'da evde üroloji uzmanı muayenesi. Prostat, idrar yolu, sonda ve böbrek hastalıkları takibi. 39 ilçede 7/24.",
+            content_html: `<h2>Evde Üroloji Doktoru Hizmeti Nedir?</h2><p>Evde üroloji hizmeti, üroloji uzmanının evinize gelerek üriner sistem ve üreme sistemi hastalıklarınızı değerlendirmesi, sonda durumunu kontrol etmesi ve tedavi planınızı düzenlemesidir. Özellikle yatağa bağımlı ve hareket kısıtlılığı olan hastalar için büyük kolaylık sağlar.</p><h2>Muayene Kapsamı</h2><ul><li>Üriner sistem muayenesi</li><li>Prostat değerlendirmesi (dijital rektal muayene)</li><li>Sonda bakımı, değerlendirmesi ve değişim kararı</li><li>Başağrı ve idrar kaçırma değerlendirmesi</li><li>Böbrek hastalıkları takibi</li><li>Laboratuvar tetkik istemi ve sonuç yorumlama</li></ul><h2>Hangi Durumlar İçin?</h2><ul><li>Prostat büyümesi (BPH) takibi</li><li>İdrar yolu enfeksiyonları</li><li>Kalıcı sonda olan hastaların takibi</li><li>İdrar kaçırma (inkontinans) sorunu</li><li>Böbrek taşı takibi</li><li>Ameliyat sonrası ürolojik kontrol</li><li>Yatağa bağımlı hastaların ürolojik değerlendirmesi</li></ul>`,
+        },
     ],
 };

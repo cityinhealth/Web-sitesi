@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 const FAQ_ITEMS = [
-  { question: "İstanbul'un hangi ilçelerinde hizmet veriyorsunuz?", answer: "İstanbul'un 39 ilçesinin tamamında 7/24 evde sağlık hizmeti sunuyoruz. Adalar dahil tüm ilçelere ulaşıyoruz." },
+  { question: "İstanbul'un hangi ilçelerinde hizmet veriyorsunuz?", answer: "İstanbul'un 39 ilçesinin tamamında 7/24 evde sağlık hizmeti sunuyoruz." },
   { question: "Evde sağlık hizmeti almak için ne yapmalıyım?", answer: `${SITE_CONFIG.phone} numaralı telefondan bizi arayabilir veya WhatsApp üzerinden iletişime geçebilirsiniz. Sağlık danışmanlarımız size en uygun hizmet planını oluşturur.` },
   { question: "Hizmet ekibiniz ne kadar sürede geliyor?", answer: "Bulunduğunuz ilçeye göre genellikle 1-3 saat içinde ekibimiz evinize ulaşır. Randevu planlaması ile istediğiniz saat ve güne göre hizmet alabilirsiniz." },
 ];

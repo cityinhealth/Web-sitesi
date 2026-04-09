@@ -67,9 +67,9 @@ export const SERUM_SERVICES_PART2 = [
 
 <h2>Tedavi Süreci Nasıldır?</h2>
 <ul>
-<li>Yavaş IV infüzyon şeklinde 2-4 saat sürer (doza bağlı)</li>
+<li>IV infüzyon şeklinde 30-45 dakika sürer (doza bağlı)</li>
 <li>Başlangıç kürü: 3-5 gün ardışık seans</li>
-<li>İdame: Ayda 1-2 seans</li>
+<li>İdame: Ayda 3-4 seans</li>
 <li>İnfüzyon hızı kişiye göre ayarlanır</li>
 </ul>
 
@@ -84,7 +84,7 @@ export const SERUM_SERVICES_PART2 = [
 </ul>
 
 <h2>Yan Etkileri Var Mıdır?</h2>
-<p>İnfüzyon sırasında göğüste sıkışma, kramp, bulantı veya baş ağrısı görülebilir. Bu etkiler infüzyon hızı yavaşlatılarak kontrol edilir. Ciddi yan etki riski düşüktür.</p>
+<p>İnfüzyon sırasında bulantı veya baş ağrısı görülebilir. Bu etkiler infüzyon hızı yavaşlatılarak kontrol edilir. Ciddi yan etki riski düşüktür.</p>
 
 <h2>Hangi Tip Hastalar Kullanır?</h2>
 <p>Yaşlanma etkilerini yavaşlatmak isteyenler, zihinsel performansını artırmak isteyenler, kronik yorgunluk hastaları, sporcular ve nörolojik destek arayanlar NAD+ tedavisinden faydalanır.</p>`,
@@ -117,7 +117,7 @@ export const SERUM_SERVICES_PART2 = [
 </ul>
 
 <h2>Yan Etkileri Var Mıdır?</h2>
-<p>Genel olarak çok güvenlidir. Nadir: baş ağrısı, uykusuzluk, mide bulantısı, ishal. Ciddi yan etki riski çok düşüktür.</p>
+<p>Genel olarak çok güvenlidir. Nadir: baş ağrısı, uykusuzluk, mide bulantısı. Ciddi yan etki riski çok düşüktür.</p>
 
 <h2>Hangi Tip Hastalar Kullanır?</h2>
 <p>İnme geçiren hastalar, beyin travması sonrası rehabilitasyon görenler, yaşlılarda kognitif destek arayanlar ve zihinsel performansını artırmak isteyenler bu tedaviden faydalanır.</p>`,
@@ -125,7 +125,7 @@ export const SERUM_SERVICES_PART2 = [
     {
         title: "Koenzim Q10 Serum Tedavisi",
         slug: "koenzim-q10-serum-tedavisi",
-        short_description: "Hücresel enerji üretimi, kalp sağlığı ve antioksidan koruma için CoQ10 intravenöz tedavisi.",
+        short_description: "Hücresel enerji üretimi, kalp sağlığı ve antioksidan koruma için Koenzim Q10 intravenöz tedavisi.",
         cover_image: "/images/koenzimQ10.png",
         meta_title: "Evde Koenzim Q10 Serum Tedavisi İstanbul | City in Health",
         meta_description: "Koenzim Q10 serum tedavisi İstanbul'da evinizde. Kalp sağlığı, enerji üretimi ve antioksidan destek. 39 ilçede 7/24.",
@@ -153,13 +153,13 @@ export const SERUM_SERVICES_PART2 = [
 <p>Genellikle iyi tolere edilir. Çok nadir: mide bulantısı, ishal, uykusuzluk. Kan sulandırıcı kullanan hastalarda dikkatli olunmalıdır.</p>
 
 <h2>Hangi Tip Hastalar Kullanır?</h2>
-<p>Kalp hastaları, statin kullanan bireyler, kronik yorgunluk hastaları, migren hastaları ve anti-aging destek arayanlar CoQ10 serumundan faydalanır.</p>`,
+<p>Kalp hastaları, statin kullanan bireyler, kronik yorgunluk hastaları, migren hastaları ve anti-aging destek arayanlar KoenzimQ10 serumundan faydalanır.</p>`,
     },
     {
         title: "B-Complex Serum Tedavisi",
         slug: "b-complex-serum-tedavisi",
         short_description: "Tüm B grubu vitaminlerini bir arada içeren kapsamlı vitamin B kompleksi IV tedavisi.",
-        cover_image: "/images/B12-vitamin.png",
+        cover_image: "/images/b-complex.png",
         meta_title: "Evde B-Complex Serum Tedavisi İstanbul | City in Health",
         meta_description: "B-Complex serum tedavisi İstanbul'da evinizde. Enerji, sinir sistemi ve metabolizma desteği. 39 ilçede 7/24.",
         content_html: `
@@ -214,11 +214,11 @@ export const B_VITAMINS_WITH_PHOTOS = [
     {
         title: "B12 Vitamin (Metilkobalamin) Serum Tedavisi",
         slug: "b12-vitamin-metilkobalamin-serum-tedavisi",
-        short_description: "Kansızlık, nöropati ve enerji eksikliğinde metilkobalamin (aktif B12) IV/IM tedavisi.",
+        short_description: "Kansızlık, nöropati ve enerji eksikliğinde metilkobalamin (aktif B12) intravenöz tedavisi.",
         cover_image: "/images/B12-vitamin.png",
         meta_title: "Evde B12 Vitamin Serum Tedavisi İstanbul | Metilkobalamin | City in Health",
         meta_description: "B12 Vitamin (Metilkobalamin) serum tedavisi İstanbul'da evinizde. Anemi, nöropati ve enerji desteği. 39 ilçede 7/24.",
-        content_html: `<h2>B12 Vitamin (Metilkobalamin) Serum Tedavisi Nedir?</h2><p>Metilkobalamin, B12 vitamininin en aktif ve biyolojik olarak kullanılabilir formudur. Kırmızı kan hücresi üretimi, DNA sentezi, sinir sistemi fonksiyonları ve enerji metabolizmasında hayati öneme sahiptir. Mide-barsak emilim sorunlarında IV/IM uygulama en etkili yöntemdir.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Megaloblastik (pernisiyöz) anemi</li><li>Periferik nöropati, uyuşma, karıncalanma</li><li>Kronik yorgunluk ve halsizlik</li><li>Vejetaryen/vegan bireylerde eksiklik</li><li>Mide ameliyatı sonrası emilim bozukluğu</li><li>Yaşlılarda kognitif destek</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>Çok güvenlidir. Suda çözünür, fazlası idrarla atılır. IM enjeksiyonda uygulama yerinde hafif ağrı olabilir. Ciddi yan etki riski yoktur.</p>`,
+        content_html: `<h2>B12 Vitamin (Metilkobalamin) Serum Tedavisi Nedir?</h2><p>Metilkobalamin, B12 vitamininin en aktif ve biyolojik olarak kullanılabilir formudur. Kırmızı kan hücresi üretimi, DNA sentezi, sinir sistemi fonksiyonları ve enerji metabolizmasında hayati öneme sahiptir. Mide-barsak emilim sorunlarında IV/IM uygulama en etkili yöntemdir.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Megaloblastik (pernisiyöz) anemi</li><li>Periferik nöropati, uyuşma, karıncalanma</li><li>Kronik yorgunluk ve halsizlik</li><li>Vejetaryen/vegan bireylerde eksiklik</li><li>Mide ameliyatı sonrası emilim bozukluğu</li><li>Yaşlılarda kognitif destek</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>Çok güvenlidir. Suda çözünür, fazlası idrarla atılır. Ciddi yan etki riski yoktur.</p>`,
     },
 ];
 
@@ -240,7 +240,7 @@ export const MINERAL_SERVICES = [
         cover_image: "/images/selenyum.png",
         meta_title: "Evde Selenyum Serum Tedavisi İstanbul | City in Health",
         meta_description: "Selenyum serum tedavisi İstanbul'da evinizde. Tiroid, antioksidan ve bağışıklık desteği. 39 ilçede 7/24.",
-        content_html: `<h2>Selenyum Serum Tedavisi Nedir?</h2><p>Selenyum, glutatyon peroksidaz ve tiyoredoksin redüktaz gibi antioksidan enzimlerin yapısında bulunan esansiyel bir eser elementtir. Tiroid fonksiyonu, bağışıklık sistemi ve antioksidan savunmada kritik rol oynar.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Selenyum eksikliği</li><li>Tiroid hastalıkları (Hashimoto)</li><li>Antioksidan destek</li><li>Bağışıklık güçlendirme</li><li>Kardiyovasküler koruma</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>Normal dozlarda güvenlidir. Aşırı dozda selenozis (sarımsak kokulu nefes, saç dökülmesi, tırnak kırılması) görülebilir. Doz takibi önemlidir.</p>`,
+        content_html: `<h2>Selenyum Serum Tedavisi Nedir?</h2><p>Selenyum, glutatyon peroksidaz ve tiyoredoksin redüktaz gibi antioksidan enzimlerin yapısında bulunan esansiyel bir eser elementtir. Tiroid fonksiyonu, bağışıklık sistemi ve antioksidan savunmada kritik rol oynar.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Selenyum eksikliği</li><li>Tiroid hastalıkları (Hashimoto)</li><li>Antioksidan destek</li><li>Bağışıklık güçlendirme</li><li>Kardiyovasküler koruma</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>Normal dozlarda güvenlidir. Doz takibi önemlidir.</p>`,
     },
     {
         title: "Biotin Serum Tedavisi",
@@ -249,7 +249,7 @@ export const MINERAL_SERVICES = [
         cover_image: "/images/biotin.png",
         meta_title: "Evde Biotin Serum Tedavisi İstanbul | City in Health",
         meta_description: "Biotin serum tedavisi İstanbul'da evinizde. Saç dökülmesi, tırnak kırılması ve cilt sağlığı desteği. 39 ilçede 7/24.",
-        content_html: `<h2>Biotin Serum Tedavisi Nedir?</h2><p>Biotin (B7 / H vitamini), keratin üretimini destekleyen ve saç, cilt, tırnak sağlığında önemli rol oynayan bir B vitaminidir. Ayrıca yağ, karbonhidrat ve protein metabolizmasında kofaktör olarak görev yapar.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Saç dökülmesi ve incelmesi</li><li>Tırnak kırılması</li><li>Cilt kuruluğu ve dermatit</li><li>Biotin eksikliği</li><li>Diyabet yönetiminde destek</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>Çok güvenlidir. Bilinen ciddi yan etkisi yoktur. Yüksek doz biotin bazı laboratuvar testlerini etkileyebilir, tahlil öncesi doktorunuzu bilgilendirin.</p>`,
+        content_html: `<h2>Biotin Serum Tedavisi Nedir?</h2><p>Biotin (B7 / H vitamini), keratin üretimini destekleyen ve saç, cilt, tırnak sağlığında önemli rol oynayan bir B vitaminidir. Ayrıca yağ, karbonhidrat ve protein metabolizmasında kofaktör olarak görev yapar.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Saç dökülmesi ve incelmesi</li><li>Tırnak kırılması</li><li>Cilt kuruluğu ve dermatit</li><li>Biotin eksikliği</li><li>Diyabet yönetiminde destek</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>Çok güvenlidir. Bilinen ciddi yan etkisi yoktur.</p>`,
     },
     {
         title: "Folik Asit Serum Tedavisi",
@@ -258,7 +258,7 @@ export const MINERAL_SERVICES = [
         cover_image: "/images/Folikasit.png",
         meta_title: "Evde Folik Asit Serum Tedavisi İstanbul | City in Health",
         meta_description: "Folik asit serum tedavisi İstanbul'da evinizde. Hamilelik, anemi ve hücre yenileme desteği. 39 ilçede 7/24.",
-        content_html: `<h2>Folik Asit (B9) Serum Tedavisi Nedir?</h2><p>Folik asit (B9), DNA sentezi, hücre bölünmesi ve kırmızı kan hücresi üretiminde esansiyel bir vitamindir. Hamilelikte nöral tüp defektlerinin önlenmesinde hayati öneme sahiptir. IV uygulama ciddi eksikliklerde ve emilim bozukluklarında tercih edilir.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Megaloblastik anemi</li><li>Hamilelikte folik asit desteği</li><li>Homosistein yüksekliği</li><li>Malabsorpsiyon sendromu</li><li>Metotreksat tedavisi alan hastalar</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>Çok güvenlidir. Suda çözünür, fazlası idrarla atılır. Nadir: alerjik reaksiyon. B12 eksikliğini maskeleyebilir, B12 düzeyi kontrol edilmelidir.</p>`,
+        content_html: `<h2>Folik Asit (B9) Serum Tedavisi Nedir?</h2><p>Folik asit (B9), DNA sentezi, hücre bölünmesi ve kırmızı kan hücresi üretiminde esansiyel bir vitamindir. Hamilelikte nöral tüp defektlerinin önlenmesinde hayati öneme sahiptir. IV uygulama ciddi eksikliklerde ve emilim bozukluklarında tercih edilir.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Megaloblastik anemi</li><li>Hamilelikte folik asit desteği</li><li>Homosistein yüksekliği</li><li>Malabsorpsiyon sendromu</li><li>Metotreksat tedavisi alan hastalar</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>Çok güvenlidir. Suda çözünür, fazlası idrarla atılır.</p>`,
     },
 ];
 
@@ -268,25 +268,25 @@ export const B_VITAMINS_OTHER = [
         title: "B3 Vitamin (Niyasin) Serum Tedavisi",
         slug: "b3-vitamin-niyasin-serum-tedavisi",
         short_description: "Kolesterol düzenleme, enerji metabolizması ve cilt sağlığında B3 vitamini IV tedavisi.",
-        cover_image: "/images/evde_serum_genel.png",
+        cover_image: "/images/b3.png",
         meta_title: "Evde B3 Vitamin Serum Tedavisi İstanbul | City in Health",
         meta_description: "B3 Vitamin (Niyasin) serum tedavisi İstanbul'da evinizde. Kolesterol düzenleme ve enerji desteği. 39 ilçede 7/24.",
-        content_html: `<h2>B3 Vitamin (Niyasin) Serum Tedavisi Nedir?</h2><p>Niyasin (B3 / nikotinik asit), NAD ve NADP koenzimlerinin öncüsüdür. 500'den fazla enzim reaksiyonunda görev alır. Kolesterol profili düzenleme, enerji metabolizması ve DNA onarımında kritik rol oynar.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Yüksek kolesterol (trigliserid düşürme)</li><li>Pellegra hastalığı</li><li>Enerji metabolizması bozukluğu</li><li>Cilt hastalıkları</li><li>Kardiyovasküler risk azaltma</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>En bilinen yan etkisi "flushing" (yüzde kızarma, sıcaklık hissi) dir. Bu geçici ve zararsızdır. Yüksek dozlarda karaciğer enzim takibi önerilir.</p>`,
+        content_html: `<h2>B3 Vitamin (Niyasin) Serum Tedavisi Nedir?</h2><p>Niyasin (B3 / nikotinik asit), NAD ve NADP koenzimlerinin öncüsüdür. 500'den fazla enzim reaksiyonunda görev alır. Kolesterol profili düzenleme, enerji metabolizması ve DNA onarımında kritik rol oynar.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Yüksek kolesterol (trigliserid düşürme)</li><li>Pellegra hastalığı</li><li>Enerji metabolizması bozukluğu</li><li>Cilt hastalıkları</li><li>Kardiyovasküler risk azaltma</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>Çok güvenlidir. Suda çözünür, fazlası vücuttan atılır. Yan etki riski çok düşüktür.</p>`,
     },
     {
         title: "B4 Vitamin (Choline Chloride) Serum Tedavisi",
         slug: "b4-vitamin-choline-chloride-serum-tedavisi",
         short_description: "Karaciğer sağlığı, beyin fonksiyonu ve yağ metabolizmasında kolin klorür IV tedavisi.",
-        cover_image: "/images/evde_serum_genel.png",
+        cover_image: "/images/b4.png",
         meta_title: "Evde B4 Vitamin Serum Tedavisi İstanbul | City in Health",
         meta_description: "Kolin Klorür (B4) serum tedavisi İstanbul'da evinizde. Karaciğer ve beyin sağlığı desteği. 39 ilçede 7/24.",
-        content_html: `<h2>B4 Vitamin (Kolin Klorür) Serum Tedavisi Nedir?</h2><p>Kolin, hücre membranı yapısı, asetilkolin nörotransmitter üretimi ve yağ metabolizmasında esansiyel bir besindir. IV kolin klorür uygulaması karaciğer yağlanmasını azaltır, beyin fonksiyonlarını destekler.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Karaciğer yağlanması</li><li>Hafıza ve kognitif fonksiyon desteği</li><li>Yağ metabolizması bozuklukları</li><li>Nörolojik destek</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>Genellikle iyi tolere edilir. Yüksek dozlarda balıksı vücut kokusu, mide bulantısı görülebilir.</p>`,
+        content_html: `<h2>B4 Vitamin (Kolin Klorür) Serum Tedavisi Nedir?</h2><p>Kolin, hücre membranı yapısı, asetilkolin nörotransmitter üretimi ve yağ metabolizmasında esansiyel bir besindir. IV kolin klorür uygulaması karaciğer yağlanmasını azaltır, beyin fonksiyonlarını destekler.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Karaciğer yağlanması</li><li>Hafıza ve kognitif fonksiyon desteği</li><li>Yağ metabolizması bozuklukları</li><li>Nörolojik destek</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>Çok güvenlidir. Suda çözünür, fazlası vücuttan atılır. Yan etki riski çok düşüktür.</p>`,
     },
     {
         title: "B5 Vitamin (Pantotenik Asit) Serum Tedavisi",
         slug: "b5-vitamin-pantotenik-asit-serum-tedavisi",
         short_description: "Hormon sentezi, yara iyileşmesi ve stres yönetiminde pantotenik asit IV tedavisi.",
-        cover_image: "/images/evde_serum_genel.png",
+        cover_image: "/images/b5.png",
         meta_title: "Evde B5 Vitamin Serum Tedavisi İstanbul | City in Health",
         meta_description: "B5 Vitamin (Pantotenik Asit) serum tedavisi İstanbul'da evinizde. Stres yönetimi ve hormon desteği. 39 ilçede 7/24.",
         content_html: `<h2>B5 Vitamin (Pantotenik Asit) Serum Tedavisi Nedir?</h2><p>Pantotenik asit (B5), Koenzim A sentezinin temel bileşenidir. Yağ asidi metabolizması, hormon sentezi (kortizol, melatonin), yara iyileşmesi ve hücresel enerji üretiminde rol oynar. "Anti-stres vitamini" olarak da bilinir.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Kronik stres ve adrenal yorgunluk</li><li>Yara iyileşmesi desteği</li><li>Akne ve cilt sorunları</li><li>Romatoid artrit desteği</li><li>Kolesterol metabolizması</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>Çok güvenlidir. Suda çözünür, fazlası vücuttan atılır. Yan etki riski çok düşüktür.</p>`,
@@ -295,9 +295,9 @@ export const B_VITAMINS_OTHER = [
         title: "B6 Vitamin (Piridoksin) Serum Tedavisi",
         slug: "b6-vitamin-piridoksin-serum-tedavisi",
         short_description: "Sinir sistemi, bağışıklık ve hemoglobin üretiminde B6 vitamini IV tedavisi.",
-        cover_image: "/images/evde_serum_genel.png",
+        cover_image: "/images/b6.png",
         meta_title: "Evde B6 Vitamin Serum Tedavisi İstanbul | City in Health",
         meta_description: "B6 Vitamin (Piridoksin) serum tedavisi İstanbul'da evinizde. Sinir sistemi ve bağışıklık desteği. 39 ilçede 7/24.",
-        content_html: `<h2>B6 Vitamin (Piridoksin) Serum Tedavisi Nedir?</h2><p>Piridoksin (B6), 100'den fazla enzim reaksiyonunda kofaktör olarak görev yapar. Amino asit metabolizması, hemoglobin sentezi, nörotransmitter üretimi (serotonin, dopamin, GABA) ve bağışıklık fonksiyonlarında kritik rol oynar.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Hamilelikte bulantı (hiperemezis gravidarum)</li><li>Premenstrüel sendrom (PMS)</li><li>Karpal tünel sendromu</li><li>Nöropati</li><li>Anemi</li><li>Homosistein yüksekliği</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>Normal dozlarda güvenlidir. Uzun süreli çok yüksek dozlarda periferik nöropati riski vardır. Doktor takibinde uygulanmalıdır.</p>`,
+        content_html: `<h2>B6 Vitamin (Piridoksin) Serum Tedavisi Nedir?</h2><p>Piridoksin (B6), 100'den fazla enzim reaksiyonunda kofaktör olarak görev yapar. Amino asit metabolizması, hemoglobin sentezi, nörotransmitter üretimi (serotonin, dopamin, GABA) ve bağışıklık fonksiyonlarında kritik rol oynar.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Hamilelikte bulantı (hiperemezis gravidarum)</li><li>Premenstrüel sendrom (PMS)</li><li>Karpal tünel sendromu</li><li>Nöropati</li><li>Anemi</li><li>Homosistein yüksekliği</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>Normal dozlarda güvenlidir. Hemşire takibinde uygulanmalıdır.</p>`,
     },
 ];

@@ -43,5 +43,14 @@ export const EVDE_BAKIM_CATEGORY = {
             meta_description: "Evde Alzheimer ve demans bakımı. Eğitimli personelle özel bakım planı. İstanbul 39 ilçede 7/24.",
             content_html: `<h2>Alzheimer/Demans Bakımı Nedir?</h2><p>Alzheimer ve demans bakımı, kognitif bozukluğu olan hastaların özel eğitimli personel tarafından evde bakılmasıdır. Hastalığın evresine göre kişiselleştirilmiş bakım planı oluşturulur. Güvenlik önlemleri, davranış yönetimi ve aile desteği sağlanır.</p><h2>Hizmet Kapsamı</h2><ul><li>Güvenli ortam oluşturma</li><li>İlaç yönetimi ve takibi</li><li>Beslenme ve hidrasyon takibi</li><li>Kognitif stimülasyon aktiviteleri</li><li>Davranış yönetimi</li><li>Gece bakımı</li><li>Aile eğitimi ve psikolojik destek</li></ul>`,
         },
+        {
+            title: "Refakatçi Hemşire Hizmeti",
+            slug: "refakatci-hemsire-hizmeti",
+            short_description: "7/24 refakatçi hemşire desteği. Hastane veya evde profesyonel hemşire eşliğinde bakım ve takip.",
+            cover_image: "/images/evde-refakatçi-emşire-hizmeti.png",
+            meta_title: "Refakatçi Hemşire Hizmeti İstanbul | City in Health",
+            meta_description: "İstanbul'da refakatçi hemşire hizmeti. Evde veya hastanede 7/24 hemşire desteği. 39 ilçede profesyonel bakım.",
+            content_html: `<h2>Refakatçi Hemşire Hizmeti Nedir?</h2><p>Refakatçi hemşire hizmeti, hastanın evinde veya hastane ortamında 7/24 profesyonel hemşire eşliğinde bakım, takip ve destek sağlanmasıdır. Ameliyat sonrası, yoğun bakım taburculuğu sonrası veya kronik hastalığı olan kişilerin yanında sürekli sağlık profesyoneli bulunmasını garanti eder.</p><h2>Hizmet Kapsamı</h2><ul><li>Vital bulgu takibi (tansiyon, nabız, ateş, oksijen)</li><li>İlaç uygulama ve takibi</li><li>Serum ve enjeksiyon uygulaması</li><li>Yara bakımı ve pansuman</li><li>Sonda ve stoma bakımı</li><li>Beslenme takibi ve oral/enteral beslenme desteği</li><li>Pozisyon değiştirme ve mobilizasyon</li><li>Doktor iletişimi ve acil müdahale koordinasyonu</li></ul><h2>Kimler İçin Uygundur?</h2><ul><li>Ameliyat sonrası yoğun bakım gereken hastalar</li><li>Yoğun bakımdan taburcu edilen bireyler</li><li>Terminal dönem hastaları</li><li>Yatağa bağımlı ve sürekli bakım gerektiren hastalar</li><li>Gece bakımı gereken yaşlı bireyler</li><li>Hastanede refakatçi hemşire ihtiyacı olanlar</li></ul>`,
+        },
     ],
 };
