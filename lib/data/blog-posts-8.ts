@@ -2,7 +2,7 @@ import { BlogPostData } from "./blog-posts";
 
 export const BLOG_POSTS_PART8: BlogPostData[] = [
     {
-        slug: "yuksek-tansiyon-evde-ne-yapmalı",
+        slug: "yuksek-tansiyon-evde-ne-yapmali",
         title: "Yüksek Tansiyon Krizinde Evde Ne Yapmalı? Acil Durumda Ev Hemşiresi Çağırmak",
         excerpt: "Tansiyonunuz yüksek ama ne yapacağınızı bilmiyor musunuz? Hipertansif urgency ile acil ayrımı, adım adım protokol, karar ağacı ve evde hemşire ne zaman çağrılmalı?",
         category: "Evde Doktor",

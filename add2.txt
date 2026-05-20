@@ -1,22 +1,12 @@
-Yeni eklenecek hizmetler var
+yeni blog yazılarımızı aynı formatta ekle.
+yazi12.md
+yazi13.md
+yazi14.md
+yazi15.md
+yazi16.md
+yazi17.md
+yazi18.md
+yazi19.md
+yazi20.md
 
-1.Evde Kan alma ve labaratuvar hizmetleri başlığı altına şunlar eklenecek
- * Evde Röntgen Hizmeti, 
- * EKO Hizmeti (Ekokardiyografi)
- * Antikor lgG- lgM Testi
-
-2. Evde Doktor Hizmeti başlığı altına şunlar eklenecek
- * Kardiyoloji Doktoru
- * Dahiliye Doktoru
- * Nöroloji Doktoru
-
-3. Evde Hemşire Hizmetleri başlığı altına şunlar eklenecek
- * Trakeostomi Bakımı
- * Balonlu PEG Bakımı
-
- Hali hazırda;
- * Ultrason Hizmeti,
- * EKG Hizmeti
-Evde kan alma ve laboratuvar hizmetleri altında yer almalı
-
-Hepsinin resimleri images altına eklenmiştir. 
+uygun olan resimleri sistemden bul ve ekle.
