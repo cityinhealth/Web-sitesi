@@ -9,6 +9,7 @@ import { BLOG_POSTS_PART7 } from "./blog-posts-7";
 import { BLOG_POSTS_PART8 } from "./blog-posts-8";
 import { BLOG_POSTS_PART9 } from "./blog-posts-9";
 import { BLOG_POSTS_PART10 } from "./blog-posts-10";
+import { BLOG_POSTS_PART11 } from "./blog-posts-11";
 import type { BlogPostData } from "./blog-posts";
 
 export type { BlogPostData };
@@ -24,6 +25,7 @@ export const ALL_BLOG_POSTS: BlogPostData[] = [
     ...BLOG_POSTS_PART8,
     ...BLOG_POSTS_PART9,
     ...BLOG_POSTS_PART10,
+    ...BLOG_POSTS_PART11,
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPostData | undefined {

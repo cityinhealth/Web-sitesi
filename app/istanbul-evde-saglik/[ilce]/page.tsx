@@ -15,7 +15,9 @@ export function generateMetadata({ params }: { params: Promise<{ ilce: string }>
         const district = ISTANBUL_DISTRICTS.find((d) => d.slug === ilce);
         if (!district) return { title: "İlçe Bulunamadı" };
         const title = `${district.district_name} Evde Sağlık Hizmetleri | Evde Serum, Hemşire, Doktor`;
-        const desc = `${district.district_name} evde sağlık hizmeti ✓ Evde serum takma ✓ Evde hemşirelik ✓ Yaşlı bakımı ✓ Evde fizyoterapi ✓ Evde doktor. 7/24 ${district.district_name}'de profesyonel sağlık ekibimizle yanınızdayız. Hemen arayın!`;
+        const desc = district.slug === "adalar"
+            ? `Adalar evde sağlık hizmeti ✓ Evde serum takma ✓ Evde hemşirelik ✓ Yaşlı bakımı ✓ Evde fizyoterapi ✓ Evde doktor. Vapur sefer saatleri arasında Adalar'da profesyonel ekibimizle yanınızdayız. Hemen arayın!`
+            : `${district.district_name} evde sağlık hizmeti ✓ Evde serum takma ✓ Evde hemşirelik ✓ Yaşlı bakımı ✓ Evde fizyoterapi ✓ Evde doktor. 7/24 ${district.district_name}'de profesyonel sağlık ekibimizle yanınızdayız. Hemen arayın!`;
         return {
             title,
             description: desc,
@@ -42,11 +44,14 @@ export default async function DistrictPage({ params }: { params: Promise<{ ilce:
     if (!district) notFound();
 
     const dn = district.district_name; // shorthand
+    const isAdalar = ilce === "adalar";
 
     const faqs = [
         {
             question: `${dn}'de evde sağlık hizmeti alabilir miyim?`,
-            answer: `Evet, City in Health olarak ${dn} bölgesinde 7/24 evde sağlık hizmeti sunuyoruz. Evde serum, hemşirelik, fizyoterapi, yaşlı bakımı, doktor muayenesi ve daha birçok hizmetimizle ${dn}'nin her mahallesine ulaşıyoruz.`
+            answer: isAdalar
+                ? `Evet, City in Health olarak Adalar bölgesinde evde sağlık hizmeti sunuyoruz. Ulaşım deniz yoluyla sağlandığından, Adalar'daki hizmetlerimiz vapur sefer saatleri arasında (gündüz saatlerinde) verilmektedir.`
+                : `Evet, City in Health olarak ${dn} bölgesinde 7/24 evde sağlık hizmeti sunuyoruz. Evde serum, hemşirelik, fizyoterapi, yaşlı bakımı, doktor muayenesi ve daha birçok hizmetimizle ${dn}'nin her mahallesine ulaşıyoruz.`
         },
         {
             question: `${dn}'de evde serum takma hizmeti var mı?`,
@@ -70,9 +75,15 @@ export default async function DistrictPage({ params }: { params: Promise<{ ilce:
         },
         {
             question: `Ekibiniz ${dn}'ye ne kadar sürede ulaşır?`,
-            answer: `${dn} bölgesindeki hizmet taleplerinize genellikle 1-3 saat içinde yanıt veriyoruz. Acil durumlar için en kısa sürede ekibimizi yönlendiriyoruz. Randevu planlaması ile istediğiniz saat ve güne göre hizmet alabilirsiniz.`
+            answer: isAdalar
+                ? `Adalar bölgesindeki hizmet talepleriniz için vapur sefer saatlerine göre planlama yapmaktayız. Randevunuzu vapur saatlerine uygun olarak önceden planlayarak istediğiniz saatte hizmet alabilirsiniz.`
+                : `${dn} bölgesindeki hizmet taleplerinize genellikle 1-3 saat içinde yanıt veriyoruz. Acil durumlar için en kısa sürede ekibimizi yönlendiriyoruz. Randevu planlaması ile istediğiniz saat ve güne göre hizmet alabilirsiniz.`
         },
     ];
+
+    const heroDesc = isAdalar
+        ? `${dn} sakinlerine vapur saatleri arasında profesyonel evde sağlık hizmeti. Evde serum, hemşirelik, yaşlı bakımı, fizyoterapi ve doktor hizmetleri ile yanınızdayız.`
+        : `${dn} ve çevresinde 7/24 profesyonel evde sağlık hizmeti. Evde serum, hemşirelik, yaşlı bakımı, fizyoterapi, yara bakımı ve doktor hizmetleri ile ${dn}&apos;de yanınızdayız.`;
 
     return (
         <>
@@ -100,7 +111,7 @@ export default async function DistrictPage({ params }: { params: Promise<{ ilce:
                         </h1>
                     </div>
                     <p className="text-lg text-white/70 max-w-3xl mt-4">
-                        {dn} ve çevresinde 7/24 profesyonel evde sağlık hizmeti. Evde serum, hemşirelik, yaşlı bakımı, fizyoterapi, yara bakımı ve doktor hizmetleri ile {dn}&apos;de yanınızdayız.
+                        {heroDesc}
                     </p>
                     <div className="flex flex-wrap gap-3 mt-6">
                         <a href={`tel:${SITE_CONFIG.phone.replace(/\s/g, "")}`} className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-xl hover:bg-primary-dark transition-all shadow-xl shadow-primary/30">
@@ -118,6 +129,18 @@ export default async function DistrictPage({ params }: { params: Promise<{ ilce:
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid lg:grid-cols-3 gap-10">
                         <div className="lg:col-span-2">
+                            {isAdalar && (
+                                <div className="mb-8 p-5 bg-amber-50 border border-amber-200 rounded-2xl flex gap-3 text-amber-800">
+                                    <span className="text-xl flex-shrink-0">⚠️</span>
+                                    <div>
+                                        <h4 className="font-bold text-amber-900">Önemli Bilgilendirme: Adalar Hizmet Saatleri</h4>
+                                        <p className="text-sm mt-1 text-amber-700 leading-relaxed">
+                                            Adalar bölgesine ulaşım deniz yoluyla sağlandığı için, Adalar'daki evde sağlık ve serum hizmetlerimiz <strong>sadece vapur saatleri arasında</strong> (gündüz saatlerinde) sunulabilmektedir. Lütfen randevu planlaması için bizimle önceden iletişime geçiniz.
+                                        </p>
+                                    </div>
+                                </div>
+                            )}
+
                             {/* Services Heading */}
                             <h2 className="text-2xl font-bold text-secondary mb-4">
                                 {dn}&apos;de Sunduğumuz Evde Sağlık Hizmetleri
@@ -159,7 +182,7 @@ export default async function DistrictPage({ params }: { params: Promise<{ ilce:
 
                                 <h3>Neden {dn}&apos;de City in Health?</h3>
                                 <ul>
-                                    <li><strong>7/24 Kesintisiz Hizmet:</strong> Hafta sonu ve resmi tatiller dahil her gün {dn}&apos;de hizmetinizdeyiz.</li>
+                                    <li><strong>{isAdalar ? "Vapur Saatlerinde Ulaşım:" : "7/24 Kesintisiz Hizmet:"}</strong> {isAdalar ? "Adalar bölgesinde hizmetlerimiz deniz ulaşımı nedeniyle sadece vapur saatleri arasında sunulmaktadır." : "Hafta sonu ve resmi tatiller dahil her gün " + dn + "'de hizmetinizdeyiz."}</li>
                                     <li><strong>Sertifikalı Ekip:</strong> Tüm sağlık personelimiz lisanslı, sertifikalı ve minimum 5 yıl deneyimlidir.</li>
                                     <li><strong>Steril Malzemeler:</strong> CE sertifikalı, tek kullanımlık steril malzemeler kullanıyoruz.</li>
                                     <li><strong>Hızlı Ulaşım:</strong> {dn}&apos;deki ekibimiz talebinize en kısa sürede yanıt verir.</li>
@@ -199,7 +222,11 @@ export default async function DistrictPage({ params }: { params: Promise<{ ilce:
                             {/* CTA Banner */}
                             <div className="mt-12 p-8 bg-gradient-to-r from-primary/5 to-primary/10 rounded-2xl border border-primary/10">
                                 <h3 className="text-xl font-bold text-secondary mb-2">{dn}&apos;de Evde Sağlık Hizmeti Almak İster Misiniz?</h3>
-                                <p className="text-muted mb-4">Profesyonel ekibimiz {dn} genelinde 7/24 hizmet vermektedir. Ücretsiz danışmanlık için hemen arayın.</p>
+                                <p className="text-muted mb-4">
+                                    {isAdalar 
+                                        ? "Profesyonel ekibimiz Adalar genelinde vapur saatleri arasında hizmet vermektedir. Ücretsiz danışmanlık için hemen arayın."
+                                        : `Profesyonel ekibimiz ${dn} genelinde 7/24 hizmet vermektedir. Ücretsiz danışmanlık için hemen arayın.`}
+                                </p>
                                 <div className="flex flex-wrap gap-3">
                                     <a href={`tel:${SITE_CONFIG.phone.replace(/\s/g, "")}`} className="px-6 py-3 bg-primary text-white font-bold rounded-xl hover:bg-primary-dark transition-all shadow-lg shadow-primary/20">
                                         📞 {SITE_CONFIG.phone}
@@ -231,7 +258,11 @@ export default async function DistrictPage({ params }: { params: Promise<{ ilce:
                                 <LeadForm variant="sidebar" sourcePage={`district-${ilce}`} />
                                 <div className="bg-secondary rounded-xl p-6 text-white">
                                     <h3 className="text-lg font-bold mb-3">📍 {dn} Evde Sağlık</h3>
-                                    <p className="text-sm text-white/60 mb-4">{dn}&apos;de 7/24 evde sağlık hizmeti için hemen arayın.</p>
+                                    <p className="text-sm text-white/60 mb-4">
+                                        {isAdalar 
+                                            ? `${dn}'de vapur saatleri arasında evde sağlık hizmeti için hemen arayın.` 
+                                            : `${dn}'de 7/24 evde sağlık hizmeti için hemen arayın.`}
+                                    </p>
                                     <a href={`tel:${SITE_CONFIG.phone.replace(/\s/g, "")}`} className="flex items-center justify-center gap-2 w-full px-4 py-3 bg-primary text-white font-bold rounded-xl hover:bg-primary-dark transition-all">
                                         📞 {SITE_CONFIG.phone}
                                     </a>
