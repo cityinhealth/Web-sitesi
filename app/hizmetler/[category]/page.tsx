@@ -93,6 +93,11 @@ export default async function CategoryPage({
                 pageName={cat.name}
                 pageDescription={cat.description || undefined}
                 pageUrl={`https://www.cityinhealth.com/hizmetler/${cat.slug}`}
+                breadcrumbs={[
+                    { name: "Ana Sayfa", url: "/" },
+                    { name: "Hizmetlerimiz", url: "/#hizmetler" },
+                    { name: cat.name, url: `/hizmetler/${cat.slug}` },
+                ]}
             />
 
             {/* Breadcrumb */}
@@ -129,6 +134,29 @@ export default async function CategoryPage({
                                 index={index}
                             />
                         ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* SEO Content Block */}
+            <section className="py-12 sm:py-16 bg-white border-t border-border">
+                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h2 className="text-2xl font-bold text-secondary mb-6">İstanbul {cat.name} Çözümleri</h2>
+                    <div className="prose prose-blue max-w-none text-muted">
+                        <p>
+                            City in Health olarak, İstanbul'un 39 ilçesinde 7/24 kesintisiz <strong>{cat.name.toLowerCase()}</strong> sunuyoruz. 
+                            Uzman ve sertifikalı sağlık kadromuz, evinize kadar gelerek hastane konforunu ve güvenliğini yaşam alanınıza taşır.
+                        </p>
+                        <p className="mt-4">
+                            {cat.description}
+                        </p>
+                        <h3 className="text-xl font-bold text-secondary mt-8 mb-4">Neden Bizi Tercih Etmelisiniz?</h3>
+                        <ul>
+                            <li><strong>Hızlı ve Güvenilir:</strong> Çağrınızdan itibaren en kısa sürede adresinize ulaşıyoruz.</li>
+                            <li><strong>Sertifikalı Personel:</strong> Tüm işlemler alanında uzman hekim ve hemşireler tarafından uygulanır.</li>
+                            <li><strong>Steril Malzemeler:</strong> Uygulamalarda CE sertifikalı, tek kullanımlık steril medikal ürünler kullanılır.</li>
+                            <li><strong>7/24 Ulaşılabilirlik:</strong> Hafta sonları ve resmi tatiller dahil kesintisiz hizmet.</li>
+                        </ul>
                     </div>
                 </div>
             </section>

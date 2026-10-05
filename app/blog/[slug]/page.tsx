@@ -35,10 +35,27 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     // Find matching service category for internal linking
     const matchedCategory = SERVICE_CATEGORIES.find(c => c.name === post.category || post.category.includes(c.name) || c.name.includes(post.category));
 
-
     return (
         <>
-            <SchemaMarkup type="MedicalOrganization" pageName={post.title} pageUrl={`https://www.cityinhealth.com/blog/${slug}`} />
+            <SchemaMarkup 
+                type="MedicalOrganization" 
+                pageName={post.title} 
+                pageUrl={`https://www.cityinhealth.com/blog/${slug}`}
+                pageDescription={post.excerpt}
+                blogPosting={{
+                    title: post.title,
+                    description: post.excerpt,
+                    url: `/blog/${post.slug}`,
+                    image: post.coverImage,
+                    datePublished: post.date,
+                    category: post.category,
+                }}
+                breadcrumbs={[
+                    { name: "Ana Sayfa", url: "/" },
+                    { name: "Blog", url: "/blog" },
+                    { name: post.title, url: `/blog/${post.slug}` },
+                ]}
+            />
 
             {/* Hero */}
             <section className="relative">

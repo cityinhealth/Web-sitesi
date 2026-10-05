@@ -8,12 +8,26 @@ export const metadata: Metadata = {
     title: "İletişim | City in Health - Bize Ulaşın",
     description: "City in Health ile iletişime geçin. Telefon, WhatsApp veya form aracılığıyla 7/24 ulaşabilirsiniz. İstanbul genelinde evde sağlık hizmeti.",
     alternates: { canonical: "/iletisim" },
+    openGraph: {
+        title: "İletişim | City in Health - Bize Ulaşın",
+        description: "City in Health ile iletişime geçin. Telefon, WhatsApp veya form aracılığıyla 7/24 ulaşabilirsiniz. İstanbul genelinde evde sağlık hizmeti.",
+        url: "https://www.cityinhealth.com/iletisim",
+        type: "website",
+    },
 };
 
 export default function ContactPage() {
     return (
         <>
-            <SchemaMarkup type="MedicalOrganization" pageName="İletişim" pageUrl="https://www.cityinhealth.com/iletisim" />
+            <SchemaMarkup 
+                type="MedicalOrganization" 
+                pageName="İletişim" 
+                pageUrl="https://www.cityinhealth.com/iletisim" 
+                breadcrumbs={[
+                    { name: "Ana Sayfa", url: "/" },
+                    { name: "İletişim", url: "/iletisim" },
+                ]}
+            />
 
             {/* Breadcrumb */}
             <div className="bg-background-alt border-b border-border">

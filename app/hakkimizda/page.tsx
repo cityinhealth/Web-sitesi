@@ -8,12 +8,26 @@ export const metadata: Metadata = {
     title: "Hakkımızda | City in Health - İstanbul Evde Sağlık Hizmetleri",
     description: "City in Health olarak İstanbul genelinde 15 yılı aşkın deneyimimizle evde sağlık hizmetleri sunuyoruz. Sertifikalı ekibimiz ve profesyonel yaklaşımımızla tanışın.",
     alternates: { canonical: "/hakkimizda" },
+    openGraph: {
+        title: "Hakkımızda | City in Health - İstanbul Evde Sağlık Hizmetleri",
+        description: "City in Health olarak İstanbul genelinde 15 yılı aşkın deneyimimizle evde sağlık hizmetleri sunuyoruz. Sertifikalı ekibimiz ve profesyonel yaklaşımımızla tanışın.",
+        url: "https://www.cityinhealth.com/hakkimizda",
+        type: "website",
+    },
 };
 
 export default function AboutPage() {
     return (
         <>
-            <SchemaMarkup type="MedicalOrganization" pageName="Hakkımızda" pageUrl="https://www.cityinhealth.com/hakkimizda" />
+            <SchemaMarkup 
+                type="MedicalOrganization" 
+                pageName="Hakkımızda" 
+                pageUrl="https://www.cityinhealth.com/hakkimizda" 
+                breadcrumbs={[
+                    { name: "Ana Sayfa", url: "/" },
+                    { name: "Hakkımızda", url: "/hakkimizda" },
+                ]}
+            />
 
             {/* Breadcrumb */}
             <div className="bg-background-alt border-b border-border">

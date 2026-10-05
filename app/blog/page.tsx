@@ -2,11 +2,18 @@ import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { ALL_BLOG_POSTS } from "@/lib/data/all-blog-posts";
+import SchemaMarkup from "@/components/seo/SchemaMarkup";
 
 export const metadata: Metadata = {
     title: "Blog & Sağlık Rehberi",
     description: "Evde sağlık, bakım ve hemşirelik hakkında uzman bilgileri, rehberler ve güncel makaleler. City in Health blog.",
     alternates: { canonical: "/blog" },
+    openGraph: {
+        title: "Blog & Sağlık Rehberi",
+        description: "Evde sağlık, bakım ve hemşirelik hakkında uzman bilgileri, rehberler ve güncel makaleler. City in Health blog.",
+        url: "https://www.cityinhealth.com/blog",
+        type: "website",
+    },
 };
 
 export default function BlogPage() {
@@ -14,6 +21,15 @@ export default function BlogPage() {
 
     return (
         <>
+            <SchemaMarkup 
+                type="MedicalOrganization" 
+                pageName="Blog & Sağlık Rehberi" 
+                pageUrl="https://www.cityinhealth.com/blog" 
+                breadcrumbs={[
+                    { name: "Ana Sayfa", url: "/" },
+                    { name: "Blog", url: "/blog" },
+                ]}
+            />
             {/* Hero */}
             <section className="bg-gradient-to-br from-secondary to-secondary-dark py-14 lg:py-20">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

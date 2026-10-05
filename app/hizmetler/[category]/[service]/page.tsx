@@ -53,8 +53,17 @@ export default async function ServicePage({ params }: { params: Promise<{ catego
 
     return (
         <>
-            <SchemaMarkup type="MedicalOrganization" pageName={svc.title} pageUrl={`https://www.cityinhealth.com/hizmetler/${category}/${service}`} faqItems={faqs} />
-
+            <SchemaMarkup 
+                type="MedicalOrganization" 
+                pageName={svc.title} 
+                pageUrl={`https://www.cityinhealth.com/hizmetler/${category}/${service}`} 
+                faqItems={faqs} 
+                breadcrumbs={[
+                    { name: "Ana Sayfa", url: "/" },
+                    { name: cat.name, url: `/hizmetler/${cat.slug}` },
+                    { name: svc.title, url: `/hizmetler/${cat.slug}/${svc.slug}` },
+                ]}
+            />
             {/* Breadcrumb */}
             <div className="bg-background-alt border-b border-border">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
@@ -81,7 +90,7 @@ export default async function ServicePage({ params }: { params: Promise<{ catego
                                     <div className="rounded-xl overflow-hidden card-shadow bg-white">
                                         <Image
                                             src={coverImage}
-                                            alt={svc.title}
+                                            alt={`${svc.title} İstanbul | City in Health`}
                                             width={280}
                                             height={210}
                                             className="w-full h-auto"

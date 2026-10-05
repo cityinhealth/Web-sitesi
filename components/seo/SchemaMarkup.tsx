@@ -1,11 +1,27 @@
 import { SITE_CONFIG } from "@/lib/data/seed-data";
 
+interface BreadcrumbItem {
+    name: string;
+    url: string;
+}
+
+interface BlogPostingData {
+    title: string;
+    description: string;
+    url: string;
+    image: string;
+    datePublished: string;
+    category: string;
+}
+
 interface SchemaMarkupProps {
     type?: "LocalBusiness" | "MedicalOrganization" | "FAQPage";
     faqItems?: { question: string; answer: string }[];
     pageName?: string;
     pageDescription?: string;
     pageUrl?: string;
+    breadcrumbs?: BreadcrumbItem[];
+    blogPosting?: BlogPostingData;
 }
 
 export default function SchemaMarkup({
@@ -14,6 +30,8 @@ export default function SchemaMarkup({
     pageName,
     pageDescription,
     pageUrl,
+    breadcrumbs,
+    blogPosting,
 }: SchemaMarkupProps) {
     const baseSchema = {
         "@context": "https://schema.org",
@@ -151,6 +169,49 @@ export default function SchemaMarkup({
             }
             : null;
 
+    const breadcrumbSchema =
+        breadcrumbs && breadcrumbs.length > 0
+            ? {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                itemListElement: breadcrumbs.map((item, index) => ({
+                    "@type": "ListItem",
+                    position: index + 1,
+                    name: item.name,
+                    item: item.url.startsWith("http") ? item.url : `${SITE_CONFIG.url}${item.url}`,
+                })),
+            }
+            : null;
+
+    const blogPostingSchema =
+        blogPosting
+            ? {
+                "@context": "https://schema.org",
+                "@type": "BlogPosting",
+                headline: blogPosting.title,
+                description: blogPosting.description,
+                url: blogPosting.url.startsWith("http") ? blogPosting.url : `${SITE_CONFIG.url}${blogPosting.url}`,
+                image: blogPosting.image.startsWith("http") ? blogPosting.image : `${SITE_CONFIG.url}${blogPosting.image}`,
+                datePublished: blogPosting.datePublished,
+                dateModified: blogPosting.datePublished,
+                author: {
+                    "@type": "Organization",
+                    name: SITE_CONFIG.name,
+                    url: SITE_CONFIG.url,
+                },
+                publisher: {
+                    "@type": "Organization",
+                    name: SITE_CONFIG.name,
+                    logo: {
+                        "@type": "ImageObject",
+                        url: `${SITE_CONFIG.url}/images/logo.png`,
+                    },
+                },
+                articleSection: blogPosting.category,
+                inLanguage: "tr-TR",
+            }
+            : null;
+
     return (
         <>
             <script
@@ -165,6 +226,18 @@ export default function SchemaMarkup({
                 <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+                />
+            )}
+            {breadcrumbSchema && (
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+                />
+            )}
+            {blogPostingSchema && (
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema) }}
                 />
             )}
         </>

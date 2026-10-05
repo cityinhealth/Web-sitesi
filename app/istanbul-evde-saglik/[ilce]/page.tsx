@@ -87,8 +87,17 @@ export default async function DistrictPage({ params }: { params: Promise<{ ilce:
 
     return (
         <>
-            <SchemaMarkup type="LocalBusiness" pageName={`${dn} Evde Sağlık`} pageUrl={`https://www.cityinhealth.com/istanbul-evde-saglik/${ilce}`} faqItems={faqs} />
-
+            <SchemaMarkup 
+                type="LocalBusiness" 
+                pageName={`${dn} Evde Sağlık`} 
+                pageUrl={`https://www.cityinhealth.com/istanbul-evde-saglik/${ilce}`} 
+                faqItems={faqs} 
+                breadcrumbs={[
+                    { name: "Ana Sayfa", url: "/" },
+                    { name: "Bölgelerimiz", url: "/istanbul-evde-saglik" },
+                    { name: dn, url: `/istanbul-evde-saglik/${ilce}` },
+                ]}
+            />
             {/* Hero */}
             <section className="bg-gradient-to-br from-secondary to-secondary-dark py-14 lg:py-20">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
