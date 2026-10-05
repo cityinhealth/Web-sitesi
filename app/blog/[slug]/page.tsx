@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ALL_BLOG_POSTS, getAllBlogSlugs, getBlogPostBySlug } from "@/lib/data/all-blog-posts";
-import { SITE_CONFIG } from "@/lib/data/seed-data";
+import { SITE_CONFIG, SERVICE_CATEGORIES } from "@/lib/data/seed-data";
 import LeadForm from "@/components/ui/LeadForm";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
 
@@ -31,6 +31,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
     // Get related posts (same category, different slug)
     const related = ALL_BLOG_POSTS.filter((p) => p.category === post.category && p.slug !== post.slug).slice(0, 3);
+    
+    // Find matching service category for internal linking
+    const matchedCategory = SERVICE_CATEGORIES.find(c => c.name === post.category || post.category.includes(c.name) || c.name.includes(post.category));
+
 
     return (
         <>
@@ -140,8 +144,13 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                             <div className="mt-12 p-8 bg-gradient-to-r from-primary/5 to-primary/10 rounded-2xl border border-primary/10">
                                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
                                     <div className="flex-1">
-                                        <h3 className="text-xl font-bold text-secondary mb-2">Bu konuda profesyonel destek mi arıyorsunuz?</h3>
-                                        <p className="text-muted">Uzman sağlık ekibimiz İstanbul genelinde 7/24 hizmet vermektedir.</p>
+                                        <h3 className="text-xl font-bold text-secondary mb-2">{post.category} konusunda profesyonel destek mi arıyorsunuz?</h3>
+                                        <p className="text-muted mb-3">Uzman sağlık ekibimiz İstanbul genelinde 7/24 hizmet vermektedir.</p>
+                                        {matchedCategory && (
+                                            <Link href={`/hizmetler/${matchedCategory.slug}`} className="text-primary font-bold hover:underline inline-flex items-center gap-1">
+                                                Tüm {matchedCategory.name} detaylarını inceleyin →
+                                            </Link>
+                                        )}
                                     </div>
                                     <div className="flex gap-3 flex-shrink-0">
                                         <a href={`tel:${SITE_CONFIG.phone.replace(/\s/g, "")}`} className="px-6 py-3 bg-primary text-white font-bold rounded-xl hover:bg-primary-dark transition-all shadow-lg shadow-primary/20">

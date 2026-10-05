@@ -24,9 +24,7 @@ export default function HomePage() {
                 7/24 İstanbul Genelinde Hizmet
               </div>
               <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-secondary leading-tight mb-6">
-                Evinizde{" "}
-                <span className="text-primary">Profesyonel</span>{" "}
-                Sağlık Hizmeti
+                İstanbul 7/24 Evde Sağlık, <span className="text-primary">Hemşirelik</span> ve Serum Hizmetleri
               </h1>
               <p className="text-base sm:text-lg text-muted leading-relaxed mb-8 max-w-xl">
                 Evde serum, hemşirelik, yaşlı bakımı, fizyoterapi ve doktor hizmetleri ile
@@ -251,7 +249,7 @@ export default function HomePage() {
       {/* ===== CTA SECTION ===== */}
       <section className="py-20 bg-gradient-to-r from-primary to-primary-dark relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <Image src={CARE_IMAGE} alt="" fill className="object-cover" sizes="100vw" />
+          <Image src={CARE_IMAGE} alt="İstanbul Evde Sağlık Hizmetleri Arka Plan" fill className="object-cover" sizes="100vw" />
         </div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-6">Sağlığınız İçin Hemen Arayın</h2>
