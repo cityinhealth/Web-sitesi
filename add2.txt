@@ -1,12 +1,13 @@
 yeni blog yazılarımızı aynı formatta ekle.
-yazi12.md
-yazi13.md
-yazi14.md
-yazi15.md
-yazi16.md
-yazi17.md
-yazi18.md
-yazi19.md
-yazi20.md
+yazi31.md
+yazi32.md
+yazi33.md
+yazi34.md
+yazi35.md
+yazi36.md
+yazi37.md
+yazi38.md
+yazi39.md
+yazi40.md
 
-uygun olan resimleri sistemden bul ve ekle.
+uygun olan Hizmetlerin resimlerini sistemden bul ve blog yazılarına ekle.
