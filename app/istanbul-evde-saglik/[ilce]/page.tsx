@@ -107,7 +107,7 @@ export default async function DistrictPage({ params }: { params: Promise<{ ilce:
                             </svg>
                         </div>
                         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">
-                            {dn} <span className="text-primary">Evde Sağlık</span> Hizmetleri
+                            {dn} <span className="text-primary">Evde Sağlık</span>, Hemşirelik ve Serum Hizmetleri
                         </h1>
                     </div>
                     <p className="text-lg text-white/70 max-w-3xl mt-4">
@@ -143,7 +143,7 @@ export default async function DistrictPage({ params }: { params: Promise<{ ilce:
 
                             {/* Services Heading */}
                             <h2 className="text-2xl font-bold text-secondary mb-4">
-                                {dn}&apos;de Sunduğumuz Evde Sağlık Hizmetleri
+                                {dn}&apos;de Sunduğumuz Evde Sağlık ve Serum Hizmetleri
                             </h2>
                             <p className="text-muted leading-relaxed mb-8">
                                 City in Health olarak {dn} bölgesinde kapsamlı evde sağlık hizmetleri sunuyoruz. Deneyimli ve sertifikalı sağlık profesyonellerimiz, evinizin konforunda en kaliteli bakımı sağlamak için {dn}&apos;nin her mahallesine ulaşır. Tüm hizmetlerimiz CE sertifikalı tek kullanımlık steril malzemelerle gerçekleştirilir.
