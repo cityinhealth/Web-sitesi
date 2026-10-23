@@ -103,7 +103,89 @@ export default function Footer() {
                             Bizi Takip Edin
                         </h3>
                         {/* Sosyal medya hesaplarınız olduğunda buraya ekleyin */}
-                        
+                    </div>
+                </div>
+
+                {/* Popular Serum Treatments & Guides SEO Internal Linking */}
+                <div className="border-t border-white/10 mt-12 pt-8">
+                    <div className="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h4 className="text-xs font-bold uppercase tracking-wider text-white/80 mb-3">
+                                Popüler Serum Tedavileri (İstanbul 7/24)
+                            </h4>
+                            <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs text-white/60">
+                                <Link href="/hizmetler/evde-serum-tedavi/demir-eksikligi-serum-tedavisi" className="hover:text-primary-light transition-colors">
+                                    Evde Demir Eksikliği Serumu
+                                </Link>
+                                <span className="text-white/20">•</span>
+                                <Link href="/hizmetler/evde-serum-tedavi/vitamin-serum-tedavisi" className="hover:text-primary-light transition-colors">
+                                    Evde Vitamin Serum Tedavisi
+                                </Link>
+                                <span className="text-white/20">•</span>
+                                <Link href="/hizmetler/evde-serum-tedavi/glutatyon-serum-tedavisi" className="hover:text-primary-light transition-colors">
+                                    Glutatyon Serum Tedavisi
+                                </Link>
+                                <span className="text-white/20">•</span>
+                                <Link href="/hizmetler/evde-serum-tedavi/ozon-tedavisi" className="hover:text-primary-light transition-colors">
+                                    Evde Ozon Tedavisi
+                                </Link>
+                                <span className="text-white/20">•</span>
+                                <Link href="/hizmetler/evde-serum-tedavi/myers-kokteyli-tedavisi" className="hover:text-primary-light transition-colors">
+                                    Myers Kokteyli (Atom Serum)
+                                </Link>
+                                <span className="text-white/20">•</span>
+                                <Link href="/hizmetler/evde-serum-tedavi/nad-plus-serum-tedavisi" className="hover:text-primary-light transition-colors">
+                                    NAD+ Hücresel Serum
+                                </Link>
+                                <span className="text-white/20">•</span>
+                                <Link href="/hizmetler/evde-serum-tedavi/b12-vitamin-metilkobalamin-serum-tedavisi" className="hover:text-primary-light transition-colors">
+                                    B12 Vitamini Serumu
+                                </Link>
+                                <span className="text-white/20">•</span>
+                                <Link href="/hizmetler/evde-serum-tedavi/biotin-serum-tedavisi" className="hover:text-primary-light transition-colors">
+                                    Biotin Saç Serumu
+                                </Link>
+                                <span className="text-white/20">•</span>
+                                <Link href="/hizmetler/evde-serum-tedavi/alfa-lipoik-asit-serum-tedavisi" className="hover:text-primary-light transition-colors">
+                                    Alfa Lipoik Asit (ALA)
+                                </Link>
+                                <span className="text-white/20">•</span>
+                                <Link href="/hizmetler/evde-serum-tedavi/b1-vitamin-thiamine-serum-tedavisi" className="hover:text-primary-light transition-colors">
+                                    B1 Vitamini (Tiamin) Serumu
+                                </Link>
+                                <span className="text-white/20">•</span>
+                                <Link href="/hizmetler/evde-serum-tedavi/cinko-serum-tedavisi" className="hover:text-primary-light transition-colors">
+                                    Çinko Serumu
+                                </Link>
+                                <span className="text-white/20">•</span>
+                                <Link href="/hizmetler/evde-serum-tedavi/multivitamin-serum-tedavisi" className="hover:text-primary-light transition-colors">
+                                    Multivitamin (Todavit) Serumu
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h4 className="text-xs font-bold uppercase tracking-wider text-white/80 mb-3">
+                                Sağlık Rehberi & Öne Çıkan Başlıklar
+                            </h4>
+                            <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs text-white/60">
+                                <Link href="/blog/zor-damara-evde-serum" className="hover:text-primary-light transition-colors">
+                                    Zor Damarlı Hastaya Evde Serum Nasıl Takılır?
+                                </Link>
+                                <span className="text-white/20">•</span>
+                                <Link href="/blog/yuksek-tansiyon-evde-ne-yapmali" className="hover:text-primary-light transition-colors">
+                                    Yüksek Tansiyon Krizinde Evde Ne Yapmalı?
+                                </Link>
+                                <span className="text-white/20">•</span>
+                                <Link href="/hizmetler/evde-hemsirelik" className="hover:text-primary-light transition-colors">
+                                    Evde Hemşirelik Hizmetleri
+                                </Link>
+                                <span className="text-white/20">•</span>
+                                <Link href="/hizmetler/evde-doktor" className="hover:text-primary-light transition-colors">
+                                    Evde Doktor Muayenesi
+                                </Link>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

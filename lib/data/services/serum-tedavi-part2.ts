@@ -200,7 +200,39 @@ export const B_VITAMINS_WITH_PHOTOS = [
         cover_image: "/images/b1.png",
         meta_title: "Evde B1 Vitamin Serum Tedavisi İstanbul | City in Health",
         meta_description: "B1 Vitamin (Thiamine) serum tedavisi İstanbul'da evinizde. Enerji metabolizması ve sinir sistemi desteği. 39 ilçede 7/24.",
-        content_html: `<h2>B1 Vitamin (Thiamine) Serum Tedavisi Nedir?</h2><p>Tiamin (B1), karbonhidrat metabolizmasında ve sinir sistemi fonksiyonlarında anahtar rol oynar. IV tiamin tedavisi özellikle Wernicke ensefalopatisi, alkolizm, malnütrisyon ve nöropatide kullanılır.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Wernicke ensefalopatisi</li><li>Alkolizme bağlı vitamin eksikliği</li><li>Periferik nöropati</li><li>Kronik yorgunluk</li><li>Kalp yetmezliği desteği</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>Genellikle güvenlidir. Çok nadir alerjik reaksiyon görülebilir. IV uygulama yavaş yapılmalıdır.</p>`,
+        content_html: `<h2>B1 Vitamin (Thiamine) Serum Tedavisi Nedir?</h2>
+<p>Tiamin (B1 vitamini), vücutta hücresel enerji üretiminin (ATP sentezi) ve sinir iletiminin en temel yapı taşlarından biridir. Karbonhidratların glikoza dönüştürülmesinde kofaktör olarak çalışan tiamin, beyin, kalp ve kas dokularının sağlıklı çalışabilmesi için zorunludur. Oral alınan B1 vitamini sindirim sisteminde sınırlı oranda emilirken, damar içi (IV) tiamin serum uygulaması biyoyararlanımı %100'e ulaştırarak hücrelerin anında beslenmesini sağlar.</p>
+
+<h2>B1 Vitamininin Vücuttaki Temel Görevleri</h2>
+<ul>
+<li>🔹 <strong>Hücresel Enerji Üretimi:</strong> Piruvat dehidrogenaz enzim kompleksinde görev alarak karbonhidratlardan hücresel enerji elde edilmesini sağlar.</li>
+<li>🔹 <strong>Sinir Sistemi Koruması:</strong> Miyelin kılıfının korunmasına yardımcı olur ve sinir iletim hızını optimize eder.</li>
+<li>🔹 <strong>Beyin Fonksiyonları ve Hafıza:</strong> Asetilkolin nörotransmitterinin sentezinde rol oynayarak konsantrasyon ve zihinsel berraklığı destekler.</li>
+<li>🔹 <strong>Kalp Kası Fonksiyonu:</strong> Miyokard hücrelerinin enerji ihtiyacını karşılayarak kalp kasının düzenli kasılmasını destekler.</li>
+</ul>
+
+<h2>Evde B1 Vitamini Serum Tedavisi Nasıl Uygulanır?</h2>
+<p>City in Health bünyesindeki deneyimli sağlık profesyonellerimiz, evinizin konforunda B1 vitamin serumu uygulamasını güvenli adımlarla gerçekleştirir:</p>
+<ol>
+<li><strong>Ön Değerlendirme & Tıbbi Görüşme:</strong> Sağlık ekibimiz hastanın tıbbi geçmişini, semptomlarını ve mevcut tedavilerini değerlendirir.</li>
+<li><strong>Steril Damar Yolu Açılması:</strong> Tek kullanımlık CE sertifikalı kanüllerle ağrısız ve hijyenik damar yolu açılır.</li>
+<li><strong>Kontrollü İnfüzyon:</strong> B1 vitamini uygun serum çözeltisi (izotonik veya dekstroz) içinde 30-45 dakikalık kontrollü infüzyonla verilir.</li>
+<li><strong>Vital Takibi:</strong> İşlem süresince tansiyon, nabız ve oksijen saturasyonu düzenli olarak takip edilir.</li>
+</ol>
+
+<h2>Hangi Durumlar ve Bulgular İçin Uygundur?</h2>
+<ul>
+<li>Kronik yorgunluk, halsizlik ve sabah uyanmakta zorlanma</li>
+<li>Konsantrasyon eksikliği, unutkanlık ve beyin sisi</li>
+<li>Periferik nöropati (el ve ayaklarda karıncalanma, yanma hissi)</li>
+<li>Bariatrik (tüp mide) cerrahisi sonrası emilim yetersizlikleri</li>
+<li>Alkol tüketimine bağlı gelişen beslenme ve tiamin yetersizlikleri</li>
+<li>Wernicke ensefalopatisi profilaksisi ve destek tedavisi</li>
+<li>Fibromiyalji ve kronik kas ağrısı yaşayan bireyler</li>
+</ul>
+
+<h2>Yan Etkileri ve Güvenlik Profili</h2>
+<p>B1 vitamini suda çözünen bir vitamin olduğu için vücutta toksik birikim yapmaz; fazlası böbrekler yoluyla atılır. Uygulama uzman hemşire kontrolünde yapıldığında son derece güvenlidir. Nadiren damar yolunda hafif hassasiyet görülebilir.</p>`,
     },
     {
         title: "B2 Vitamin (Riboflavin) Serum Tedavisi",
@@ -209,7 +241,32 @@ export const B_VITAMINS_WITH_PHOTOS = [
         cover_image: "/images/b2.png",
         meta_title: "Evde B2 Vitamin Serum Tedavisi İstanbul | City in Health",
         meta_description: "B2 Vitamin (Riboflavin) serum tedavisi İstanbul'da evinizde. Migren profilaksisi ve enerji desteği. 39 ilçede 7/24.",
-        content_html: `<h2>B2 Vitamin (Riboflavin) Serum Tedavisi Nedir?</h2><p>Riboflavin (B2), FAD ve FMN koenzimlerinin yapı taşıdır. Enerji üretimi, hücresel büyüme, yağ metabolizması ve antioksidan savunmada rol oynar. Yüksek doz riboflavin migren profilaksisinde kanıtlanmış etkinliğe sahiptir.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Migren profilaksisi (400mg/gün)</li><li>B2 vitamini eksikliği</li><li>Ağız yarası ve dudak çatlakları</li><li>Anemi desteği</li><li>Göz sağlığı</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>Çok güvenli bir vitamindir. İdrarı parlak sarıya boyar, bu normal bir durumdur. Yan etki riski çok düşüktür.</p>`,
+        content_html: `<h2>B2 Vitamin (Riboflavin) Serum Tedavisi Nedir?</h2>
+<p>Riboflavin (B2 vitamini), flavin mononükleotid (FMN) ve flavin adenin dinükleotid (FAD) koenzimlerinin temel bileşenidir. Vücutta mitokondriyal enerji üretiminde, yağ asitlerinin yakılmasında ve antioksidan savunma mekanizmalarında kritik rol oynar. Tıbbi literatürde özellikle kronik migren profilaksisinde ve mitokondriyal enerji eksikliklerinde yüksek doz B2 vitamini infüzyonunun klinik faydaları kanıtlanmıştır.</p>
+
+<h2>B2 Vitamini (Riboflavin) Temel Faydaları</h2>
+<ul>
+<li>🔹 <strong>Migren Ataklarını Azaltma:</strong> Beyin hücrelerindeki mitokondriyal enerji açığını kapatarak migren sıklığını ve şiddetini azaltmaya yardımcı olur.</li>
+<li>🔹 <strong>Hücresel Oksijenasyon & Antioksidan Güç:</strong> Glutatyon redüktaz enziminin çalışmasını sağlayarak vücudun ana antioksidan döngüsünü ayakta tutar.</li>
+<li>🔹 <strong>Göz ve Kornea Sağlığı:</strong> Katarakt gelişim riskine ve göz yorgunluğuna karşı hücresel düzeyde koruma sağlar.</li>
+<li>🔹 <strong>Cilt ve Mukoza Desteği:</strong> Dudak kenarı çatlakları (anguler keilit), dil iltihabı ve cilt dermatiti belirtilerini hafifletir.</li>
+<li>🔹 <strong>Demir Metabolizması:</strong> Kırmızı kan hücrelerinin üretiminde demirin emilim ve kullanımına katkı sunar.</li>
+</ul>
+
+<h2>Tedavi Süreci ve Uygulama</h2>
+<p>Uygulama öncesi uzman hemşiremiz hastanın genel sağlık durumunu kontrol eder. B2 vitamini serumu damar yolundan 30-40 dakikalık yavaş infüzyon şeklinde verilir. Tedavi süresince hemşiremiz hastanın yanında kalır. Seans sonrası hastalar günlük yaşantılarına rahatlıkla devam edebilir.</p>
+
+<h2>Kimler İçin Uygundur?</h2>
+<ul>
+<li>Sık tekrarlayan migren ve gerilim tipi baş ağrısı çekenler</li>
+<li>Kronik yorgunluk, halsizlik ve kas gücü kaybı yaşayanlar</li>
+<li>Ağız kenarı çatlağı, aft ve cilt kuruluğu şikayeti olanlar</li>
+<li>Yüksek tempolu çalışan, zihinsel odaklanma gerektiren meslek sahipleri</li>
+<li>Sindirim sistemi emilim bozukluğu bulunan hastalar</li>
+</ul>
+
+<h2>Yan Etkileri Var Mıdır?</h2>
+<p>Riboflavin güvenilirliği en yüksek vitaminlerden biridir. Fazlası doğal yollarla idrarla atılır ve bu esnada idrar rengini geçici olarak parlak sarıya dönüştürür; bu tamamen fizyolojik ve zararsız bir etkidir.</p>`,
     },
     {
         title: "B12 Vitamin (Metilkobalamin) Serum Tedavisi",
@@ -231,7 +288,28 @@ export const MINERAL_SERVICES = [
         cover_image: "/images/cinko.png",
         meta_title: "Evde Çinko Serum Tedavisi İstanbul | City in Health",
         meta_description: "Çinko serum tedavisi İstanbul'da evinizde. Bağışıklık, yara iyileşmesi ve cilt sağlığı desteği. 39 ilçede 7/24.",
-        content_html: `<h2>Çinko Serum Tedavisi Nedir?</h2><p>Çinko, 300'den fazla enzim reaksiyonunda görev alan esansiyel bir mineraldir. Bağışıklık sistemi, yara iyileşmesi, DNA sentezi, protein üretimi ve hücre bölünmesinde kritik öneme sahiptir. IV çinko tedavisi eksikliğin hızla düzeltilmesini sağlar.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Çinko eksikliği</li><li>Bağışıklık sistemi zayıflığı</li><li>Yara iyileşmesinde gecikme</li><li>Saç dökülmesi ve cilt sorunları</li><li>Tat ve koku kaybı</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>Normal dozlarda güvenlidir. Yüksek dozda bulantı, kusma, bakır eksikliği görülebilir. Bakır takibi önerilir.</p>`,
+        content_html: `<h2>Çinko Serum Tedavisi Nedir?</h2>
+<p>Çinko, insan vücudunda 300'den fazla enzimin aktivitesinde rol oynayan esansiyel bir eser mineraldir. Bağışıklık hücresi aktivasyonu, DNA sentezi, protein üretimi, yara iyileşmesi ve tat-koku duyularının korunmasında vazgeçilmez bir fonksiyona sahiptir. Oral çinko takviyeleri midede bulantı ve kramp yapabilirken, IV çinko infüzyonu sindirim sistemini atlayarak dokuların hızla toparlanmasını sağlar.</p>
+
+<h2>Çinko Serum Tedavisinin Temel Faydaları</h2>
+<ul>
+<li>🔹 <strong>Hızlı Bağışıklık Desteği:</strong> T lenfositlerinin olgunlaşmasını ve antikor yanıtını güçlendirir, viral enfeksiyon sürelerini kısaltır.</li>
+<li>🔹 <strong>Doku Onarımı ve Yara İyileşmesi:</strong> Kolajen sentezini uyararak cerrahi yaralar, bası yaraları ve cilt lezyonlarının iyileşmesini hızlandırır.</li>
+<li>🔹 <strong>Saç ve Tırnak Güçlendirme:</strong> Saç folikülü bölünmesini destekleyerek saç dökülmesini ve tırnak kırılmalarını azaltır.</li>
+<li>🔹 <strong>Cilt Akne ve Egzama Yönetimi:</strong> Cildin sebum dengesini düzenler ve anti-inflamatuar etki sağlar.</li>
+</ul>
+
+<h2>Evde Uygulama Protokolü</h2>
+<p>Sertifikalı hemşiremiz tarafından damar yolu açılarak hazırlanan serum 30-45 dakikada infüze edilir. Seans boyunca hasta konforu ve vital bulguları yakından takip edilir.</p>
+
+<h2>Kimler İçin Uygundur?</h2>
+<ul>
+<li>Sık sık hasta olan, bağışıklık direnci zayıflamış kişiler</li>
+<li>Cerrahi operasyon veya travma sonrası toparlanma sürecindekiler</li>
+<li>Şiddetli saç dökülmesi ve tırnak soyulması yaşayanlar</li>
+<li>Diyabetik ayak veya zor iyileşen yarası bulunan hastalar</li>
+<li>Tat ve koku duyusunda azalma tarifleyen bireyler</li>
+</ul>`,
     },
     {
         title: "Selenyum Serum Tedavisi",
@@ -240,7 +318,19 @@ export const MINERAL_SERVICES = [
         cover_image: "/images/selenyum.png",
         meta_title: "Evde Selenyum Serum Tedavisi İstanbul | City in Health",
         meta_description: "Selenyum serum tedavisi İstanbul'da evinizde. Tiroid, antioksidan ve bağışıklık desteği. 39 ilçede 7/24.",
-        content_html: `<h2>Selenyum Serum Tedavisi Nedir?</h2><p>Selenyum, glutatyon peroksidaz ve tiyoredoksin redüktaz gibi antioksidan enzimlerin yapısında bulunan esansiyel bir eser elementtir. Tiroid fonksiyonu, bağışıklık sistemi ve antioksidan savunmada kritik rol oynar.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Selenyum eksikliği</li><li>Tiroid hastalıkları (Hashimoto)</li><li>Antioksidan destek</li><li>Bağışıklık güçlendirme</li><li>Kardiyovasküler koruma</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>Normal dozlarda güvenlidir. Doz takibi önemlidir.</p>`,
+        content_html: `<h2>Selenyum Serum Tedavisi Nedir?</h2>
+<p>Selenyum, vücudun en güçlü antioksidan savunma enzimi olan Glutatyon Peroksidaz (GPx) enziminin merkezinde yer alan hayati bir eser elementtir. Tiroid bezinin hormon dönüşüm mekanizmasında (T4'ten aktif T3'e dönüşüm) görev alan iyodotironin deiyodinaz enzimlerinin yapısına katılır. Özellikle otoimmün tiroid hastalıklarında (Hashimoto tiroiditi) serbest radikalleri nötralize ederek tiroid dokusundaki antikor yükünü hafifletmeye yardımcı olur.</p>
+
+<h2>Selenyum Serumunun Faydaları</h2>
+<ul>
+<li>🔹 <strong>Tiroid Bezi Koruması:</strong> Hashimoto tiroiditi ve antikor yüksekliği olan bireylerde inflamasyonu yatıştırmaya yardımcı olur.</li>
+<li>🔹 <strong>Antioksidan Güç:</strong> Hücre zarlarını lipid peroksidasyonuna ve serbest radikal hasarına karşı korur.</li>
+<li>🔹 <strong>Bağışıklık ve Hücresel Savunma:</strong> Lökosit fonksiyonlarını ve antikor üretim kapasitesini destekler.</li>
+<li>🔹 <strong>Kardiyovasküler Destek:</strong> Damar endotel sağlığını ve kalp dokusunu oksidatif hasardan korur.</li>
+</ul>
+
+<h2>Uygulama ve Seans Bilgisi</h2>
+<p>Uzman ekibimiz hastanın tetkiklerini ve doktor önerilerini dikkate alarak uygun dozda selenyum infüzyonunu evinizde 30 dakikada uygular.</p>`,
     },
     {
         title: "Biotin Serum Tedavisi",
@@ -249,7 +339,31 @@ export const MINERAL_SERVICES = [
         cover_image: "/images/biotin.png",
         meta_title: "Evde Biotin Serum Tedavisi İstanbul | City in Health",
         meta_description: "Biotin serum tedavisi İstanbul'da evinizde. Saç dökülmesi, tırnak kırılması ve cilt sağlığı desteği. 39 ilçede 7/24.",
-        content_html: `<h2>Biotin Serum Tedavisi Nedir?</h2><p>Biotin (B7 / H vitamini), keratin üretimini destekleyen ve saç, cilt, tırnak sağlığında önemli rol oynayan bir B vitaminidir. Ayrıca yağ, karbonhidrat ve protein metabolizmasında kofaktör olarak görev yapar.</p><h2>Hangi Bulgular İçin Uygundur?</h2><ul><li>Saç dökülmesi ve incelmesi</li><li>Tırnak kırılması</li><li>Cilt kuruluğu ve dermatit</li><li>Biotin eksikliği</li><li>Diyabet yönetiminde destek</li></ul><h2>Yan Etkileri Var Mıdır?</h2><p>Çok güvenlidir. Bilinen ciddi yan etkisi yoktur.</p>`,
+        content_html: `<h2>Biotin (B7 Vitamini) Serum Tedavisi Nedir?</h2>
+<p>Biotin (B7 veya H vitamini), vücutta keratin proteininin sentezlenmesi için zorunlu olan bir koenzimdir. Saç teli yapısının kalınlaşması, tırnak tabakasının güçlenmesi ve cildin nem bariyerinin korunmasında belirleyici bir rol üstlenir. Ağızdan alınan biotin hapları mide asidi ve sindirim bariyeri sebebiyle zayıf emilebilirken, damar içi (IV) biotin serumu aktif bileşeni doğrudan kan dolaşımına vererek saç foliküllerine ve cilt hücrelerine maksimum dozda ulaşmasını sağlar.</p>
+
+<h2>Biotin Serumunun Kanıtlanmış Faydaları</h2>
+<ul>
+<li>🔹 <strong>Saç Dökülmesini Durdurma ve Güçlendirme:</strong> Telogen effluvium (mevsimsel veya stres kaynaklı dökülmeler) ve saç incelmesinde folikül hücrelerini besleyerek saç köklerini canlandırır.</li>
+<li>🔹 <strong>Tırnak Kırılmalarını Önleme:</strong> Tırnak keratin dokusunu kalınlaştırarak soyulma, çatlama ve kırılmaları belirgin şekilde azaltır.</li>
+<li>🔹 <strong>Işıltılı ve Sağlıklı Cilt:</strong> Yağ asidi metabolizmasını düzenleyerek kuru, pul pul dökülen ve mat cilt görünümünü canlandırır.</li>
+<li>🔹 <strong>Enerji Metabolizmasını Destekleme:</strong> Karbonhidrat ve aminoasitlerin enerjiye dönüştürülmesine yardımcı olur.</li>
+</ul>
+
+<h2>Evde Biotin Serumu Tedavi Süreci</h2>
+<p>İstanbul'un 39 ilçesinde adresinize gelen lisanslı hemşiremiz, steril malzemelerle damar yolunu açar ve biotin serumunu ortalama 30 dakikada uygular. Saç ve cilt yenilenmesi için genellikle haftada 1 seans olmak üzere 4-6 seanslık kürler önerilmektedir.</p>
+
+<h2>Kimler İçin Uygundur?</h2>
+<ul>
+<li>Mevsimsel, hormonal veya stres kaynaklı yoğun saç dökülmesi yaşayanlar</li>
+<li>Zayıf, çabuk kırılan ve kat kat ayrılan tırnaklara sahip bireyler</li>
+<li>Cilt kuruluğu, dermatit ve elastikiyet kaybı şikayeti olanlar</li>
+<li>Doğum sonrası veya yoğun diyet sonrası vitamin depoları tükenenler</li>
+<li>Saç ekimi öncesi veya sonrası folikül güçlendirme hedefleyen hastalar</li>
+</ul>
+
+<h2>Yan Etkileri Var Mıdır?</h2>
+<p>Biotin tamamen suda çözünen ve yüksek güvenlik profiline sahip bir vitamindir. Fazlalığı böbrekler aracılığıyla atılır. Ciddi bir yan etkisi bulunmamaktadır.</p>`,
     },
     {
         title: "Folik Asit Serum Tedavisi",

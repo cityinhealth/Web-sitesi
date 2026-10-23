@@ -15,14 +15,21 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "City in Health | Evde Serum, Hemşirelik ve Sağlık Hizmetleri İstanbul",
+    default: "Evde Serum Takma ve Evde Sağlık Hizmetleri İstanbul | 7/24 City in Health",
     template: "%s | City in Health",
   },
   description:
-    "City in Health - İstanbul genelinde 7/24 evde serum, evde hemşirelik, evde doktor, yaşlı bakımı, fizyoterapi ve laboratuvar hizmetleri. 39 ilçede profesyonel ekibimizle kapınızdayız.",
+    "İstanbul'da 7/24 evde serum takma ve evde sağlık hizmetleri. Atom serum, sarı serum, vitamin, glutatyon ve ağrı kesici serumlar. Lisanslı hemşirelerimiz 39 ilçede 30-60 dakikada kapınızda!",
   keywords: [
-    "evde sağlık",
     "evde serum",
+    "evde serum takma",
+    "evde serum hizmeti",
+    "istanbul evde serum",
+    "eve serum çağırma",
+    "evde atom serum",
+    "evde sarı serum",
+    "evde serum fiyatları",
+    "evde sağlık",
     "evde hemşirelik",
     "İstanbul evde sağlık",
   ],
@@ -43,9 +50,9 @@ export const metadata: Metadata = {
     locale: "tr_TR",
     url: "https://www.cityinhealth.com",
     siteName: "City in Health",
-    title: "City in Health | Evde Serum, Hemşirelik ve Sağlık Hizmetleri İstanbul",
+    title: "Evde Serum Takma ve Evde Sağlık Hizmetleri İstanbul | 7/24 City in Health",
     description:
-      "City in Health - İstanbul'da 7/24 evde serum, evde hemşirelik, evde doktor, yaşlı bakımı ve fizyoterapi. 39 ilçede kapınızdayız.",
+      "İstanbul'da 7/24 evde serum takma ve hemşirelik hizmeti. Atom serum, sarı serum, vitamin ve ağrı kesici serumlar kapınızda.",
     images: [
       {
         url: "/images/logo.png",

@@ -76,11 +76,11 @@ const BASE_SERVICES = [
 ];
 
 export const SERUM_TEDAVI_CATEGORY = {
-    name: "Evde Serum ve Tedavi Hizmetleri",
+    name: "Evde Serum Takma ve Tedavi Hizmetleri",
     slug: "evde-serum-tedavi",
-    description: "Evinizin konforunda profesyonel serum ve IV tedavi uygulamaları. Uzman hemşirelerimizle İstanbul genelinde 7/24 hizmet.",
-    meta_title: "Evde Serum ve Tedavi Hizmetleri İstanbul | 7/24 | City in Health",
-    meta_description: "İstanbul'da evde serum takma, vitamin serum tedavisi, ozon tedavisi ve daha fazlası. Sertifikalı hemşirelerle 7/24 mobil sağlık hizmeti.",
+    description: "Evinizin konforunda profesyonel evde serum takma ve IV tedavi uygulamaları. Uzman hemşirelerimizle İstanbul'un 39 ilçesinde 7/24 kesintisiz hizmet.",
+    meta_title: "Evde Serum Takma Hizmeti İstanbul | 7/24 Eve Hemşire | City in Health",
+    meta_description: "İstanbul'da 7/24 evde serum takma hizmeti. Atom serum, sarı serum, ağrı kesici, vitamin ve demir serumları. Lisanslı hemşirelerimiz 30-60 dakikada kapınızda. Hemen arayın!",
     icon: "💉",
     cover_image: "/images/evde-serum.png",
     services: [...BASE_SERVICES, ...SERUM_SERVICES_PART2, ...B_VITAMINS_WITH_PHOTOS, ...MINERAL_SERVICES, ...B_VITAMINS_OTHER],

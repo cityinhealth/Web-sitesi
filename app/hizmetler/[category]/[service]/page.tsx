@@ -2,7 +2,8 @@ import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { SERVICE_CATEGORIES, SITE_CONFIG } from "@/lib/data/seed-data";
+import { SERVICE_CATEGORIES, SITE_CONFIG, ISTANBUL_DISTRICTS } from "@/lib/data/seed-data";
+import { ALL_BLOG_POSTS } from "@/lib/data/all-blog-posts";
 import LeadForm from "@/components/ui/LeadForm";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
 
@@ -50,6 +51,23 @@ export default async function ServicePage({ params }: { params: Promise<{ catego
     ];
 
     const categoryServices = cat.services;
+
+    // Find related blog posts based on category name keywords
+    const categoryKeywords = cat.name.toLowerCase().split(/\s+/).filter(w => w.length > 3);
+    const serviceKeywords = svc.title.toLowerCase().split(/\s+/).filter(w => w.length > 3);
+    const allKeywords = [...new Set([...categoryKeywords, ...serviceKeywords])];
+    const relatedPosts = ALL_BLOG_POSTS
+        .filter(post => {
+            const titleLower = post.title.toLowerCase();
+            const excerptLower = post.excerpt.toLowerCase();
+            return allKeywords.some(kw => titleLower.includes(kw) || excerptLower.includes(kw));
+        })
+        .slice(0, 3);
+
+    // Pick 8 random districts for cross-linking
+    const popularDistricts = ISTANBUL_DISTRICTS
+        .filter((_, i) => i % 5 === 0 || i < 8)
+        .slice(0, 8);
 
     return (
         <>
@@ -170,6 +188,38 @@ export default async function ServicePage({ params }: { params: Promise<{ catego
                                         <p className="mt-3 text-sm text-muted leading-relaxed">{faq.answer}</p>
                                     </details>
                                 ))}
+                            </div>
+
+                            {/* Related Blog Posts - SEO Internal Linking */}
+                            {relatedPosts.length > 0 && (
+                                <div className="mt-12">
+                                    <h2 className="text-2xl font-bold text-secondary mb-6">İlgili Blog Yazıları</h2>
+                                    <div className="grid sm:grid-cols-3 gap-4">
+                                        {relatedPosts.map((post) => (
+                                            <Link key={post.slug} href={`/blog/${post.slug}`} className="group bg-white rounded-xl border border-border p-4 card-shadow hover:card-shadow-hover transition-all hover:-translate-y-0.5">
+                                                <span className="text-xs font-medium text-primary bg-primary/10 px-2 py-0.5 rounded-full">{post.category}</span>
+                                                <h3 className="text-sm font-bold text-secondary mt-2 mb-1 group-hover:text-primary transition-colors line-clamp-2">{post.title}</h3>
+                                                <p className="text-xs text-muted line-clamp-2">{post.excerpt}</p>
+                                            </Link>
+                                        ))}
+                                    </div>
+                                </div>
+                            )}
+
+                            {/* District Cross-Links - SEO Geographic Linking */}
+                            <div className="mt-12">
+                                <h2 className="text-xl font-bold text-secondary mb-4">Bu Hizmeti Sunduğumuz Popüler İlçeler</h2>
+                                <p className="text-sm text-muted mb-4">{svc.title} hizmetimizi İstanbul&apos;un 39 ilçesinde sunuyoruz.</p>
+                                <div className="flex flex-wrap gap-2">
+                                    {popularDistricts.map((d) => (
+                                        <Link key={d.slug} href={`/istanbul-evde-saglik/${d.slug}`} className="px-3 py-1.5 bg-white rounded-lg border border-border text-xs text-secondary hover:text-primary hover:border-primary/20 transition-all card-shadow">
+                                            {d.district_name}
+                                        </Link>
+                                    ))}
+                                    <Link href="/istanbul-evde-saglik" className="px-3 py-1.5 bg-primary/10 rounded-lg border border-primary/20 text-xs text-primary font-semibold hover:bg-primary/20 transition-all">
+                                        Tüm 39 İlçe →
+                                    </Link>
+                                </div>
                             </div>
                         </div>
 

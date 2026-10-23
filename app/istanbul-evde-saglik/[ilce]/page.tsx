@@ -203,10 +203,52 @@ export default async function DistrictPage({ params }: { params: Promise<{ ilce:
                                     {dn} bölgesinde en çok talep edilen hizmetlerimiz arasında <strong>evde serum tedavisi</strong>, <strong>evde kan alma ve tahlil</strong>, <strong>evde pansuman ve yara bakımı</strong>, <strong>yaşlı bakımı</strong> ve <strong>evde fizyoterapi</strong> yer almaktadır. Özellikle kronik hastalık takibi, ameliyat sonrası bakım ve geriatrik hizmetlerde uzmanlaşmış ekibimiz, {dn} halkına en yüksek kalitede hizmet sunmaktadır.
                                 </p>
 
-                                <h3>{dn}&apos;de Evde Serum Tedavisi</h3>
+                                <h3>{dn}&apos;de Evde Serum Tedavisi ve IV Uygulamaları</h3>
                                 <p>
-                                    {dn} bölgesinde evde serum hizmeti sunuyoruz. Vitamin serumları (C vitamini, B12, Multivitamin), antibiyotik serumları, ozon tedavisi, glutasyon, Myers kokteyli ve daha birçok IV tedaviyi evinizde uyguluyoruz. Tüm serum uygulamaları uzman hemşirelerimiz tarafından steril koşullarda gerçekleştirilir.
+                                    {dn} bölgesinde 7/24 kesintisiz evde serum hizmeti sunuyoruz. Başta demir eksikliği anemisi için 
+                                    <Link href="/hizmetler/evde-serum-tedavi/demir-eksikligi-serum-tedavisi" className="text-primary font-semibold hover:underline"> {dn} evde demir serumu</Link> olmak üzere; 
+                                    <Link href="/hizmetler/evde-serum-tedavi/vitamin-serum-tedavisi" className="text-primary font-semibold hover:underline"> evde atom ve vitamin serumu</Link>, 
+                                    <Link href="/hizmetler/evde-serum-tedavi/glutatyon-serum-tedavisi" className="text-primary font-semibold hover:underline"> glutatyon detoks serumu</Link>, 
+                                    <Link href="/hizmetler/evde-serum-tedavi/ozon-tedavisi" className="text-primary font-semibold hover:underline"> evde ozon tedavisi</Link>, 
+                                    <Link href="/hizmetler/evde-serum-tedavi/myers-kokteyli-tedavisi" className="text-primary font-semibold hover:underline"> Myers kokteyli</Link>, 
+                                    <Link href="/hizmetler/evde-serum-tedavi/biotin-serum-tedavisi" className="text-primary font-semibold hover:underline"> biotin saç serumu</Link>, 
+                                    <Link href="/hizmetler/evde-serum-tedavi/alfa-lipoik-asit-serum-tedavisi" className="text-primary font-semibold hover:underline"> alfa lipoik asit</Link> ve 
+                                    <Link href="/hizmetler/evde-serum-tedavi/b12-vitamin-metilkobalamin-serum-tedavisi" className="text-primary font-semibold hover:underline"> B12 vitamini infüzyonu</Link> 
+                                    gibi tüm IV tedaviler lisanslı hemşirelerimiz tarafından hijyenik standartlarda uygulanır.
                                 </p>
+
+                                <div className="not-prose my-6 p-5 bg-white rounded-2xl border border-border card-shadow">
+                                    <div className="flex items-center gap-2 mb-3">
+                                        <span className="w-2 h-2 rounded-full bg-primary" />
+                                        <h4 className="text-sm font-bold text-secondary">{dn}&apos;de En Çok Tercih Edilen Serum Tedavileri</h4>
+                                    </div>
+                                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5">
+                                        {[
+                                            { title: `${dn} Demir Serumu`, href: "/hizmetler/evde-serum-tedavi/demir-eksikligi-serum-tedavisi" },
+                                            { title: `${dn} Atom / Vitamin`, href: "/hizmetler/evde-serum-tedavi/vitamin-serum-tedavisi" },
+                                            { title: `${dn} Glutatyon Serumu`, href: "/hizmetler/evde-serum-tedavi/glutatyon-serum-tedavisi" },
+                                            { title: `${dn} Ozon Tedavisi`, href: "/hizmetler/evde-serum-tedavi/ozon-tedavisi" },
+                                            { title: `${dn} Myers Kokteyli`, href: "/hizmetler/evde-serum-tedavi/myers-kokteyli-tedavisi" },
+                                            { title: `${dn} Biotin Saç Serumu`, href: "/hizmetler/evde-serum-tedavi/biotin-serum-tedavisi" },
+                                        ].map((item, idx) => (
+                                            <Link 
+                                                key={idx}
+                                                href={item.href} 
+                                                className="group flex items-center justify-between p-3 rounded-xl bg-background-alt hover:bg-white border border-border hover:border-primary/40 transition-all duration-200 card-shadow hover:-translate-y-0.5"
+                                            >
+                                                <div className="flex items-center gap-2.5 min-w-0">
+                                                    <span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
+                                                    <span className="truncate text-xs font-semibold text-secondary group-hover:text-primary transition-colors">
+                                                        {item.title}
+                                                    </span>
+                                                </div>
+                                                <span className="text-muted/40 group-hover:text-primary group-hover:translate-x-0.5 transition-all text-xs flex-shrink-0 ml-1">
+                                                    →
+                                                </span>
+                                            </Link>
+                                        ))}
+                                    </div>
+                                </div>
 
                                 <h3>{dn}&apos;de Evde Hemşirelik Hizmeti</h3>
                                 <p>

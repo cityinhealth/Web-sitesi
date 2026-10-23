@@ -10,7 +10,7 @@ const TEAM_IMAGE = "/images/teyze.png";
 const CARE_IMAGE = "/images/evdepansuman.png";
 
 export default function HomePage() {
-  const latestPosts = ALL_BLOG_POSTS.slice(0, 3);
+  const latestPosts = ALL_BLOG_POSTS.slice(0, 6);
 
   return (
     <>
@@ -24,11 +24,11 @@ export default function HomePage() {
                 7/24 İstanbul Genelinde Hizmet
               </div>
               <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-secondary leading-tight mb-6">
-                İstanbul 7/24 Evde Sağlık, <span className="text-primary">Hemşirelik</span> ve Serum Hizmetleri
+                İstanbul 7/24 <span className="text-primary">Evde Serum</span>, Hemşirelik ve Sağlık Hizmetleri
               </h1>
               <p className="text-base sm:text-lg text-muted leading-relaxed mb-8 max-w-xl">
-                Evde serum, hemşirelik, yaşlı bakımı, fizyoterapi ve doktor hizmetleri ile
-                İstanbul&apos;un 39 ilçesinde yanınızdayız.
+                Evde serum takma, atom serum, reçeteli ilaç infüzyonu, uzman hemşirelik ve doktor hizmetleri ile
+                İstanbul&apos;un 39 ilçesinde 30-60 dakikada kapınızdayız.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <a href={`tel:${SITE_CONFIG.phone.replace(/\s/g, "")}`} className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3.5 sm:py-4 bg-primary text-white font-bold rounded-xl hover:bg-primary-dark transition-all duration-200 shadow-xl shadow-primary/30 hover:scale-[1.02] active:scale-[0.98] text-base sm:text-lg">
@@ -104,6 +104,45 @@ export default function HomePage() {
                 </div>
               </Link>
             ))}
+          </div>
+
+          {/* Popular Serum Treatments Quick Bar */}
+          <div className="mt-10 p-6 bg-white rounded-2xl border border-border card-shadow">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-5">
+              <div>
+                <div className="inline-flex items-center gap-1.5 text-xs font-bold text-primary uppercase tracking-wider mb-1">
+                  <span className="w-2 h-2 rounded-full bg-primary" />
+                  Hızlı Erişim
+                </div>
+                <h3 className="text-base font-bold text-secondary">Popüler Evde Serum Tedavilerimiz</h3>
+                <p className="text-xs text-muted">İstanbul genelinde 7/24 randevu ile evinizde uyguladığımız IV tedaviler</p>
+              </div>
+              <Link href="/hizmetler/evde-serum-tedavi" className="text-xs font-semibold text-primary hover:text-primary-dark transition-colors inline-flex items-center gap-1 self-start sm:self-auto group">
+                Tüm Serumları İncele <span className="group-hover:translate-x-0.5 transition-transform">→</span>
+              </Link>
+            </div>
+            <div className="flex flex-wrap gap-2.5">
+              {[
+                { title: "Evde Demir Eksikliği Serumu", href: "/hizmetler/evde-serum-tedavi/demir-eksikligi-serum-tedavisi" },
+                { title: "Atom & Vitamin Serumu", href: "/hizmetler/evde-serum-tedavi/vitamin-serum-tedavisi" },
+                { title: "Glutatyon Detoks Serumu", href: "/hizmetler/evde-serum-tedavi/glutatyon-serum-tedavisi" },
+                { title: "Medikal Ozon Tedavisi", href: "/hizmetler/evde-serum-tedavi/ozon-tedavisi" },
+                { title: "Myers Kokteyli Enerji Serumu", href: "/hizmetler/evde-serum-tedavi/myers-kokteyli-tedavisi" },
+                { title: "Biotin Saç & Cilt Serumu", href: "/hizmetler/evde-serum-tedavi/biotin-serum-tedavisi" },
+                { title: "Alfa Lipoik Asit (ALA)", href: "/hizmetler/evde-serum-tedavi/alfa-lipoik-asit-serum-tedavisi" },
+                { title: "B12 Vitamini Serumu", href: "/hizmetler/evde-serum-tedavi/b12-vitamin-metilkobalamin-serum-tedavisi" },
+                { title: "NAD+ Hücre Yenileme Serumu", href: "/hizmetler/evde-serum-tedavi/nad-plus-serum-tedavisi" },
+              ].map((item, idx) => (
+                <Link
+                  key={idx}
+                  href={item.href}
+                  className="group inline-flex items-center gap-2 px-3.5 py-2.5 rounded-xl bg-background-alt hover:bg-white text-secondary hover:text-primary border border-border hover:border-primary/40 text-xs font-semibold transition-all duration-200 card-shadow hover:-translate-y-0.5"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
+                  <span className="transition-colors">{item.title}</span>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </section>

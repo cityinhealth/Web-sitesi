@@ -29,8 +29,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     const post = getBlogPostBySlug(slug);
     if (!post) notFound();
 
-    // Get related posts (same category, different slug)
-    const related = ALL_BLOG_POSTS.filter((p) => p.category === post.category && p.slug !== post.slug).slice(0, 3);
+    // Get related posts (same category first, then fill up to 3 with other popular posts)
+    const sameCategory = ALL_BLOG_POSTS.filter((p) => p.category === post.category && p.slug !== post.slug);
+    const otherPosts = ALL_BLOG_POSTS.filter((p) => p.slug !== post.slug && p.category !== post.category);
+    const related = [...sameCategory, ...otherPosts].slice(0, 3);
     
     // Find matching service category for internal linking
     const matchedCategory = SERVICE_CATEGORIES.find(c => c.name === post.category || post.category.includes(c.name) || c.name.includes(post.category));
@@ -207,13 +209,22 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                                 <LeadForm variant="sidebar" sourcePage={`blog-${slug}`} />
 
                                 <div className="bg-white rounded-xl border border-border p-5 card-shadow">
-                                    <h3 className="font-bold text-secondary mb-4">📚 Kategoriler</h3>
-                                    <div className="space-y-2">
+                                    <div className="flex items-center gap-2 mb-4">
+                                        <span className="w-2 h-2 rounded-full bg-primary" />
+                                        <h3 className="font-bold text-secondary text-sm">Kategoriler</h3>
+                                    </div>
+                                    <div className="space-y-1">
                                         {[...new Set(ALL_BLOG_POSTS.map((p) => p.category))].map((cat) => (
-                                            <div key={cat} className="flex items-center justify-between text-sm text-muted hover:text-primary transition-colors cursor-pointer py-1">
-                                                <span>{cat}</span>
-                                                <span className="text-xs bg-background-alt px-2 py-0.5 rounded-full">{ALL_BLOG_POSTS.filter((p) => p.category === cat).length}</span>
-                                            </div>
+                                            <Link 
+                                                key={cat} 
+                                                href={`/blog?kategori=${encodeURIComponent(cat)}`}
+                                                className="flex items-center justify-between text-sm text-muted hover:text-primary hover:bg-primary/5 px-2.5 py-1.5 rounded-lg transition-all group"
+                                            >
+                                                <span className="group-hover:translate-x-0.5 transition-transform">{cat}</span>
+                                                <span className="text-xs bg-background-alt group-hover:bg-primary/10 group-hover:text-primary px-2 py-0.5 rounded-full font-medium transition-colors">
+                                                    {ALL_BLOG_POSTS.filter((p) => p.category === cat).length}
+                                                </span>
+                                            </Link>
                                         ))}
                                     </div>
                                 </div>
